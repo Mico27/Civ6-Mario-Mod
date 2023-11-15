@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="ATTACK_A"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BACKWARD_A"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_A"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_COMBAT_A"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEFEND_A"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DODGE_A"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="FORWARD_A"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_A"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_A"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT_STOP"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_B"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_C"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_D"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="SPAWN"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="VICTORY"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_A"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT_START"/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+					</Element>
+				</m_Bindings>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="RUN_A"/>
+						<m_TimelineName text="RUN_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="FORWARD_A"/>
+						<m_TimelineName text="FORWARD_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BACKWARD_A"/>
+						<m_TimelineName text="BACKWARD_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_A"/>
+						<m_TimelineName text="BREATHING_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_A"/>
+						<m_TimelineName text="ATTACK_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_A"/>
+						<m_TimelineName text="REACT_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_A"/>
+						<m_TimelineName text="DEATH_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DODGE_A"/>
+						<m_TimelineName text="DODGE_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="SPAWN"/>
+						<m_TimelineName text="SPAWN"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_COMBAT_A"/>
+						<m_TimelineName text="BREATHING_COMBAT_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEFEND_A"/>
+						<m_TimelineName text="DEFEND_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT"/>
+						<m_TimelineName text="RUN_COMBAT"/>
+					</Element>
+					<Element>
+						<m_SlotName text="VICTORY"/>
+						<m_TimelineName text="VICTORY"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP"/>
+						<m_TimelineName text="RUN_STOP"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_B"/>
+						<m_TimelineName text="RUN_STOP_B"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_D"/>
+						<m_TimelineName text="RUN_STOP_D"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_C"/>
+						<m_TimelineName text="RUN_STOP_C"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT_STOP"/>
+						<m_TimelineName text="RUN_COMBAT_STOP"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT_START"/>
+						<m_TimelineName text="RUN_COMBAT_START"/>
+					</Element>
+				</m_Bindings>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines>
+					<Element>
+						<m_Name text="RUN_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="FORWARD_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="BACKWARD_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="BREATHING_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="ATTACK_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="1"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_GOOMBA"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.041246</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="REACT_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="2"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_GOOMBA"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.050631</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DODGE_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="4"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_GOOMBA"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.024074</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="SPAWN"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="BREATHING_COMBAT_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEFEND_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="3"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_GOOMBA"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.024074</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_COMBAT"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="VICTORY"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="6"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_GOOMBA"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.045076</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_STOP"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_STOP_B"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_STOP_D"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_STOP_C"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_COMBAT_STOP"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_IDLE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_COMBAT_START"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_TOAD_MODERNARMOR_HIDE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="5"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_GOOMBA"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.012963</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+				</m_Timelines>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points/>
+			</m_attachmentPoints>
+			<m_stateSet/>
+		</m_behaviorDataSets>
+		<m_behaviorInstances>
+			<Element text="BaseGoomba"/>
+		</m_behaviorInstances>
+		<m_dsgName text="potential_any_graph"/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="Root"/>
+				<m_GeoName text="MICO_GOOMBA"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="MICO_GOOMBA"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="MICO_GOOMBA"/>
+						<m_MeshName text="MICO_GOOMBA"/>
+						<m_StateName text="Default"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_SplineSet>
+		<m_Splines/>
+	</m_SplineSet>
+	<m_CookParams>
+		<m_Values/>
+	</m_CookParams>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="Unit"/>
+	<m_DataFiles/>
+	<m_Name text="MICO_GOOMBA_MODERNARMOR"/>
+	<m_Description text=""/>
+	<m_Tags/>
+</AssetObjects..AssetInstance>
+

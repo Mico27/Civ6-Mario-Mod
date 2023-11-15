@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..MaterialInstance>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="MICO_PEACH_CASTLE_HMEDIT_a"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="HeightTexture"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="MinHeight"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>5.000000</m_fValue>
+				<m_ParamName text="MaxHeight"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="UseRelativeHeight"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="TerrainEditMaterial"/>
+	<m_DataFiles/>
+	<m_Name text="MICO_PEACH_CASTLE_HMEDIT"/>
+	<m_Description text=""/>
+	<m_Tags/>
+</AssetObjects..MaterialInstance>
+

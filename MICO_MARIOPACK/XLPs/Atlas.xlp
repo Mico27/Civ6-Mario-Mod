@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="BeanstalkAlbedo"/>
+			<m_ObjectName text="BeanstalkAlbedo"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BowserCastleAlbedo"/>
+			<m_ObjectName text="BowserCastleAlbedo"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BowserCastleBaseAlbedo"/>
+			<m_ObjectName text="BowserCastleBaseAlbedo"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BowserCastleLavaOpacity"/>
+			<m_ObjectName text="BowserCastleLavaOpacity"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BowserCastleSpec"/>
+			<m_ObjectName text="BowserCastleSpec"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Flower_Sanctuary_Flowers_Green_a"/>
+			<m_ObjectName text="Flower_Sanctuary_Flowers_Green_a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Flower_Sanctuary_Flowers_Green_o"/>
+			<m_ObjectName text="Flower_Sanctuary_Flowers_Green_o"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Flower_Sanctuary_Flowers_Purple_a"/>
+			<m_ObjectName text="Flower_Sanctuary_Flowers_Purple_a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Flower_Sanctuary_Flowers_Purple_o"/>
+			<m_ObjectName text="Flower_Sanctuary_Flowers_Purple_o"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Flower_Sanctuary_Flowers_Red_a"/>
+			<m_ObjectName text="Flower_Sanctuary_Flowers_Red_a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Flower_Sanctuary_Flowers_Red_o"/>
+			<m_ObjectName text="Flower_Sanctuary_Flowers_Red_o"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Flower_Sanctuary_Flowers_Yellow_a"/>
+			<m_ObjectName text="Flower_Sanctuary_Flowers_Yellow_a"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Flower_Sanctuary_Flowers_Yellow_o"/>
+			<m_ObjectName text="Flower_Sanctuary_Flowers_Yellow_o"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_FLOWER_SANCTUARY_256"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_FLOWER_SANCTUARY_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_FLOWER_SANCTUARY_38"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_FLOWER_SANCTUARY_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_FLOWER_SANCTUARY_50"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_FLOWER_SANCTUARY_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_FLOWER_SANCTUARY_80"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_FLOWER_SANCTUARY_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_FLYING_FORTRESS_200"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_FLYING_FORTRESS_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_FLYING_FORTRESS_22"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_FLYING_FORTRESS_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_FLYING_FORTRESS_256"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_FLYING_FORTRESS_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_FLYING_FORTRESS_32"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_FLYING_FORTRESS_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_FLYING_FORTRESS_38"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_FLYING_FORTRESS_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_FLYING_FORTRESS_50"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_FLYING_FORTRESS_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_FLYING_FORTRESS_70"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_FLYING_FORTRESS_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_FLYING_FORTRESS_80"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_FLYING_FORTRESS_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_FLYING_FORTRESS_95"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_FLYING_FORTRESS_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_GIANT_BEANSTALK_128"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_GIANT_BEANSTALK_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_GIANT_BEANSTALK_256"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_GIANT_BEANSTALK_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_GIANT_BEANSTALK_32"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_GIANT_BEANSTALK_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_GIANT_BEANSTALK_38"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_GIANT_BEANSTALK_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_GIANT_BEANSTALK_50"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_GIANT_BEANSTALK_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_GIANT_BEANSTALK_80"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_GIANT_BEANSTALK_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_LAVA_FORTRESS_256"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_LAVA_FORTRESS_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_LAVA_FORTRESS_38"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_LAVA_FORTRESS_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_LAVA_FORTRESS_50"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_LAVA_FORTRESS_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_LAVA_FORTRESS_80"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_LAVA_FORTRESS_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_PEACH_CASTLE_128"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_PEACH_CASTLE_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_PEACH_CASTLE_200"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_PEACH_CASTLE_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_PEACH_CASTLE_256"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_PEACH_CASTLE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_PEACH_CASTLE_32"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_PEACH_CASTLE_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_PEACH_CASTLE_38"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_PEACH_CASTLE_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_PEACH_CASTLE_50"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_PEACH_CASTLE_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_PEACH_CASTLE_80"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_PEACH_CASTLE_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_PROJECT_256"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_PROJECT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_PROJECT_30"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_PROJECT_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_PROJECT_32"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_PROJECT_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_PROJECT_38"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_PROJECT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_PROJECT_50"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_PROJECT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_PROJECT_80"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_PROJECT_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_KOOPA_128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_KOOPA_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_KOOPA_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_KOOPA_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_KOOPA_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_KOOPA_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_KOOPA_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_KOOPA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_KOOPA_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_KOOPA_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_KOOPA_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_KOOPA_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_KOOPA_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_KOOPA_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_KOOPA_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_KOOPA_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_KOOPA_45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_KOOPA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_KOOPA_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_KOOPA_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_KOOPA_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_KOOPA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_KOOPA_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_KOOPA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_KOOPA_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_KOOPA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_MUSHROOM_128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_MUSHROOM_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_MUSHROOM_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_MUSHROOM_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_MUSHROOM_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_MUSHROOM_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_MUSHROOM_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_MUSHROOM_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_MUSHROOM_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_MUSHROOM_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_MUSHROOM_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_MUSHROOM_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_MUSHROOM_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_MUSHROOM_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_MUSHROOM_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_MUSHROOM_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_MUSHROOM_45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_MUSHROOM_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_MUSHROOM_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_MUSHROOM_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_MUSHROOM_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_MUSHROOM_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_MUSHROOM_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_MUSHROOM_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_MUSHROOM_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_MUSHROOM_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_SARASALAND_128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_SARASALAND_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_SARASALAND_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_SARASALAND_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_SARASALAND_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_SARASALAND_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_SARASALAND_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_SARASALAND_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_SARASALAND_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_SARASALAND_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_SARASALAND_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_SARASALAND_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_SARASALAND_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_SARASALAND_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_SARASALAND_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_SARASALAND_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_SARASALAND_45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_SARASALAND_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_SARASALAND_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_SARASALAND_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_SARASALAND_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_SARASALAND_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_SARASALAND_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_SARASALAND_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_MICO_SARASALAND_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_MICO_SARASALAND_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_BOWSER_256"/>
+			<m_ObjectName text="ICON_LEADER_MICO_BOWSER_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_BOWSER_32"/>
+			<m_ObjectName text="ICON_LEADER_MICO_BOWSER_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_BOWSER_45"/>
+			<m_ObjectName text="ICON_LEADER_MICO_BOWSER_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_BOWSER_50"/>
+			<m_ObjectName text="ICON_LEADER_MICO_BOWSER_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_BOWSER_55"/>
+			<m_ObjectName text="ICON_LEADER_MICO_BOWSER_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_BOWSER_64"/>
+			<m_ObjectName text="ICON_LEADER_MICO_BOWSER_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_BOWSER_80"/>
+			<m_ObjectName text="ICON_LEADER_MICO_BOWSER_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_DAISY_256"/>
+			<m_ObjectName text="ICON_LEADER_MICO_DAISY_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_DAISY_32"/>
+			<m_ObjectName text="ICON_LEADER_MICO_DAISY_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_DAISY_45"/>
+			<m_ObjectName text="ICON_LEADER_MICO_DAISY_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_DAISY_50"/>
+			<m_ObjectName text="ICON_LEADER_MICO_DAISY_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_DAISY_55"/>
+			<m_ObjectName text="ICON_LEADER_MICO_DAISY_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_DAISY_64"/>
+			<m_ObjectName text="ICON_LEADER_MICO_DAISY_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_DAISY_80"/>
+			<m_ObjectName text="ICON_LEADER_MICO_DAISY_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_PEACH_256"/>
+			<m_ObjectName text="ICON_LEADER_MICO_PEACH_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_PEACH_32"/>
+			<m_ObjectName text="ICON_LEADER_MICO_PEACH_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_PEACH_45"/>
+			<m_ObjectName text="ICON_LEADER_MICO_PEACH_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_PEACH_50"/>
+			<m_ObjectName text="ICON_LEADER_MICO_PEACH_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_PEACH_55"/>
+			<m_ObjectName text="ICON_LEADER_MICO_PEACH_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_PEACH_64"/>
+			<m_ObjectName text="ICON_LEADER_MICO_PEACH_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MICO_PEACH_80"/>
+			<m_ObjectName text="ICON_LEADER_MICO_PEACH_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNITOPERATION_MICO_WARP_PAINTING_256"/>
+			<m_ObjectName text="ICON_UNITOPERATION_MICO_WARP_PAINTING_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNITOPERATION_MICO_WARP_PAINTING_38"/>
+			<m_ObjectName text="ICON_UNITOPERATION_MICO_WARP_PAINTING_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNITOPERATION_MICO_WARP_PAINTING_50"/>
+			<m_ObjectName text="ICON_UNITOPERATION_MICO_WARP_PAINTING_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNITOPERATION_MICO_WARP_PAINTING_80"/>
+			<m_ObjectName text="ICON_UNITOPERATION_MICO_WARP_PAINTING_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MICO_BOWSER_NEUTRAL"/>
+			<m_ObjectName text="LEADER_MICO_BOWSER_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MICO_DAISY_NEUTRAL"/>
+			<m_ObjectName text="LEADER_MICO_DAISY_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MICO_PEACH_NEUTRAL"/>
+			<m_ObjectName text="LEADER_MICO_PEACH_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_BOWSER_1"/>
+			<m_ObjectName text="MICO_BOWSER_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_BOWSER_2"/>
+			<m_ObjectName text="MICO_BOWSER_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_BOWSER_3"/>
+			<m_ObjectName text="MICO_BOWSER_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_BOWSER_4"/>
+			<m_ObjectName text="MICO_BOWSER_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_DAISY_1"/>
+			<m_ObjectName text="MICO_DAISY_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_DAISY_2"/>
+			<m_ObjectName text="MICO_DAISY_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_DAISY_3"/>
+			<m_ObjectName text="MICO_DAISY_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_DAISY_4"/>
+			<m_ObjectName text="MICO_DAISY_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_PEACH_1"/>
+			<m_ObjectName text="MICO_PEACH_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_PEACH_2"/>
+			<m_ObjectName text="MICO_PEACH_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_PEACH_4"/>
+			<m_ObjectName text="MICO_PEACH_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Infrastructure_AirShip"/>
+			<m_ObjectName text="Moment_Infrastructure_AirShip"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Infrastructure_FlowerSanctuary"/>
+			<m_ObjectName text="Moment_Infrastructure_FlowerSanctuary"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Infrastructure_GiantBeanstalk"/>
+			<m_ObjectName text="Moment_Infrastructure_GiantBeanstalk"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Infrastructure_LavaFortress"/>
+			<m_ObjectName text="Moment_Infrastructure_LavaFortress"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Infrastructure_RoyalGardener"/>
+			<m_ObjectName text="Moment_Infrastructure_RoyalGardener"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_TOAD_HOUSE_256"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_TOAD_HOUSE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_TOAD_HOUSE_38"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_TOAD_HOUSE_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_TOAD_HOUSE_50"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_TOAD_HOUSE_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_MICO_TOAD_HOUSE_80"/>
+			<m_ObjectName text="ICON_ATLAS_MICO_TOAD_HOUSE_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_256"/>
+			<m_ObjectName text="ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_45"/>
+			<m_ObjectName text="ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_64"/>
+			<m_ObjectName text="ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_FOW_256"/>
+			<m_ObjectName text="ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_FOW_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_UNIT_MICO_MARIO_BROS_22"/>
+			<m_ObjectName text="ICON_ATLAS_UNIT_MICO_MARIO_BROS_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_UNIT_MICO_MARIO_BROS_256"/>
+			<m_ObjectName text="ICON_ATLAS_UNIT_MICO_MARIO_BROS_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_UNIT_MICO_MARIO_BROS_32"/>
+			<m_ObjectName text="ICON_ATLAS_UNIT_MICO_MARIO_BROS_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_UNIT_MICO_MARIO_BROS_38"/>
+			<m_ObjectName text="ICON_ATLAS_UNIT_MICO_MARIO_BROS_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_UNIT_MICO_MARIO_BROS_50"/>
+			<m_ObjectName text="ICON_ATLAS_UNIT_MICO_MARIO_BROS_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_UNIT_MICO_MARIO_BROS_80"/>
+			<m_ObjectName text="ICON_ATLAS_UNIT_MICO_MARIO_BROS_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_200"/>
+			<m_ObjectName text="PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_256"/>
+			<m_ObjectName text="PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_38"/>
+			<m_ObjectName text="PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_50"/>
+			<m_ObjectName text="PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_70"/>
+			<m_ObjectName text="PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_95"/>
+			<m_ObjectName text="PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ATLAS_HEROCLASS_MICO_MARIO_BROS_105"/>
+			<m_ObjectName text="ICON_ATLAS_HEROCLASS_MICO_MARIO_BROS_105"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Heroes_MicoMarioBros"/>
+			<m_ObjectName text="Heroes_MicoMarioBros"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Heroes_MicoMarioBros_Expired"/>
+			<m_ObjectName text="Heroes_MicoMarioBros_Expired"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_MicoIggy"/>
+			<m_ObjectName text="GovernorNormal_MicoIggy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_MicoLarry"/>
+			<m_ObjectName text="GovernorNormal_MicoLarry"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_MicoLemmy"/>
+			<m_ObjectName text="GovernorNormal_MicoLemmy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_MicoLudwig"/>
+			<m_ObjectName text="GovernorNormal_MicoLudwig"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_MicoMorton"/>
+			<m_ObjectName text="GovernorNormal_MicoMorton"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_MicoRoy"/>
+			<m_ObjectName text="GovernorNormal_MicoRoy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_MicoWendy"/>
+			<m_ObjectName text="GovernorNormal_MicoWendy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_MicoIggy"/>
+			<m_ObjectName text="GovernorSelected_MicoIggy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_MicoLarry"/>
+			<m_ObjectName text="GovernorSelected_MicoLarry"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_MicoLemmy"/>
+			<m_ObjectName text="GovernorSelected_MicoLemmy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_MicoLudwig"/>
+			<m_ObjectName text="GovernorSelected_MicoLudwig"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_MicoMorton"/>
+			<m_ObjectName text="GovernorSelected_MicoMorton"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_MicoRoy"/>
+			<m_ObjectName text="GovernorSelected_MicoRoy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_MicoWendy"/>
+			<m_ObjectName text="GovernorSelected_MicoWendy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mico_GovernorPromotions24"/>
+			<m_ObjectName text="Mico_GovernorPromotions24"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mico_Governors32"/>
+			<m_ObjectName text="Mico_Governors32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mico_Governors64"/>
+			<m_ObjectName text="Mico_Governors64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mico_GovernorsCityBannerFill22"/>
+			<m_ObjectName text="Mico_GovernorsCityBannerFill22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mico_GovernorsCityBannerFill32"/>
+			<m_ObjectName text="Mico_GovernorsCityBannerFill32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mico_GovernorsCityBannerSlot22"/>
+			<m_ObjectName text="Mico_GovernorsCityBannerSlot22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mico_GovernorsCityBannerSlot32"/>
+			<m_ObjectName text="Mico_GovernorsCityBannerSlot32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HistoricMomentKoopalings"/>
+			<m_ObjectName text="HistoricMomentKoopalings"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HistoricMomentPeachCastle"/>
+			<m_ObjectName text="HistoricMomentPeachCastle"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HistoricMomentToadHouse"/>
+			<m_ObjectName text="HistoricMomentToadHouse"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

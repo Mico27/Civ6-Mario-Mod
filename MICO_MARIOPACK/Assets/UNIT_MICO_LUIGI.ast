@@ -1,0 +1,1768 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="ACTION_1"/>
+						<m_AnimationName text="MICO_MARIO_ATTACK"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_1"/>
+						<m_AnimationName text="MICO_MARIO_ATTACK"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_2"/>
+						<m_AnimationName text="MICO_MARIO_ATTACK2"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_3"/>
+						<m_AnimationName text="MICO_MARIO_ATTACK2"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_A"/>
+						<m_AnimationName text="MICO_MARIO_ATTACK"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BACKWARD_A"/>
+						<m_AnimationName text="MICO_MARIO_RUN"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_A"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEFEND_A"/>
+						<m_AnimationName text="MICO_MARIO_DEFEND"/>
+					</Element>
+					<Element>
+						<m_SlotName text="FORWARD_A"/>
+						<m_AnimationName text="MICO_MARIO_RUN"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HERO_A"/>
+						<m_AnimationName text="MICO_MARIO_ATTACK2"/>
+					</Element>
+					<Element>
+						<m_SlotName text="JUMP_IDLE"/>
+						<m_AnimationName text="MICO_MARIO_JUMP"/>
+					</Element>
+					<Element>
+						<m_SlotName text="JUMP_START"/>
+						<m_AnimationName text="MICO_MARIO_START_JUMP"/>
+					</Element>
+					<Element>
+						<m_SlotName text="JUMP_STOP"/>
+						<m_AnimationName text="MICO_MARIO_END_JUMP"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_A"/>
+						<m_AnimationName text="MICO_MARIO_DEFEND"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_A"/>
+						<m_AnimationName text="MICO_MARIO_DEFEND"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_A"/>
+						<m_AnimationName text="MICO_MARIO_RUN"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT"/>
+						<m_AnimationName text="MICO_MARIO_RUN_COMBAT"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT_START"/>
+						<m_AnimationName text="MICO_MARIO_IDLE_COMBAT"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT_STOP"/>
+						<m_AnimationName text="MICO_MARIO_IDLE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="SPAWN"/>
+						<m_AnimationName text="MICO_MARIO_IDLE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="VICTORY"/>
+						<m_AnimationName text="MICO_MARIO_IDLE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="TURN_L"/>
+						<m_AnimationName text="MICO_MARIO_RUN"/>
+					</Element>
+					<Element>
+						<m_SlotName text="TURN_R"/>
+						<m_AnimationName text="MICO_MARIO_RUN"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_A"/>
+						<m_AnimationName text="MICO_MARIO_IDLE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_COMBAT_A"/>
+						<m_AnimationName text="MICO_MARIO_IDLE_COMBAT"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_1"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_10"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_11"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_12"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_13"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_14"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_15"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_16"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_17"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_18"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_19"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_2"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_20"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_21"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_22"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_23"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_24"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_25"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_26"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_27"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_28"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_3"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_4"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_5"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_6"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_7"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_8"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_9"/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+					</Element>
+				</m_Bindings>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="RUN_A"/>
+						<m_TimelineName text="RUN_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="FORWARD_A"/>
+						<m_TimelineName text="FORWARD_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BACKWARD_A"/>
+						<m_TimelineName text="BACKWARD_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_A"/>
+						<m_TimelineName text="IDLE_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_A"/>
+						<m_TimelineName text="ATTACK_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_A"/>
+						<m_TimelineName text="REACT_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_A"/>
+						<m_TimelineName text="DEATH_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HERO_A"/>
+						<m_TimelineName text="HERO_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="SPAWN"/>
+						<m_TimelineName text="SPAWN"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_COMBAT_A"/>
+						<m_TimelineName text="IDLE_COMBAT_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEFEND_A"/>
+						<m_TimelineName text="DEFEND_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="TURN_R"/>
+						<m_TimelineName text="TURN_R"/>
+					</Element>
+					<Element>
+						<m_SlotName text="TURN_L"/>
+						<m_TimelineName text="TURN_L"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_1"/>
+						<m_TimelineName text="ATTACK_1"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT"/>
+						<m_TimelineName text="RUN_COMBAT"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_A"/>
+						<m_TimelineName text="REACT_RANGED_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="VICTORY"/>
+						<m_TimelineName text="VICTORY"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP"/>
+						<m_TimelineName text="RUN_STOP"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT_STOP"/>
+						<m_TimelineName text="RUN_COMBAT_STOP"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_START"/>
+						<m_TimelineName text="RUN_START"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_2"/>
+						<m_TimelineName text="ATTACK_2"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_3"/>
+						<m_TimelineName text="ATTACK_3"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT_START"/>
+						<m_TimelineName text="RUN_COMBAT_START"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ACTION_1"/>
+						<m_TimelineName text="ACTION_1"/>
+					</Element>
+					<Element>
+						<m_SlotName text="JUMP_START"/>
+						<m_TimelineName text="JUMP_START"/>
+					</Element>
+					<Element>
+						<m_SlotName text="JUMP_IDLE"/>
+						<m_TimelineName text="JUMP_IDLE"/>
+					</Element>
+					<Element>
+						<m_SlotName text="JUMP_STOP"/>
+						<m_TimelineName text="JUMP_STOP"/>
+					</Element>
+				</m_Bindings>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines>
+					<Element>
+						<m_Name text="RUN_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_RUN"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="FORWARD_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_RUN"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="BACKWARD_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_RUN"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="IDLE_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="ATTACK_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_ATTACK"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="8"/>
+								<m_Description text=""/>
+								<m_FXName text="Weapon_Swing_Club_Heavy"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.457407</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="16"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.540741</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="17"/>
+								<m_Description text=""/>
+								<m_FXName text="END"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.609259</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="19"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Smack_Premult"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Hammer_Impact"/>
+								<m_fStartTime>0.509259</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="9"/>
+								<m_Description text=""/>
+								<m_FXName text="Impact_VFX_Blunt_Flesh"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.548148</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="32"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_MARIO_LuigiSpinAtk"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.112963</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="REACT_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_DEFEND"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_DEATH"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="HERO_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_ATTACK2"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="20"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.453704</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="21"/>
+								<m_Description text=""/>
+								<m_FXName text="END"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.605556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="33"/>
+								<m_Description text=""/>
+								<m_FXName text="Weapon_Swing_Club_Heavy"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.457407</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="34"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_MARIO_LuigiLetsaGo"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.205556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="SPAWN"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_IDLE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="35"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_MARIO_LuigiLetsaGo"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.009259</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="IDLE_COMBAT_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEFEND_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_DEFEND"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="TURN_R"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_RUN"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="TURN_L"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_RUN"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="ATTACK_1"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_ATTACK"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="6"/>
+								<m_Description text=""/>
+								<m_FXName text="Weapon_Swing_Club_Heavy"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.455556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="10"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.535185</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="11"/>
+								<m_Description text=""/>
+								<m_FXName text="END"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.614815</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="18"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Smack_Premult"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Hammer_Impact"/>
+								<m_fStartTime>0.509259</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="24"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_MARIO_LuigiWa"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.392593</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="25"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_MARIO_LuigiGrunt"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.005556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="7"/>
+								<m_Description text=""/>
+								<m_FXName text="Impact_VFX_Blunt_Flesh"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.546296</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_COMBAT"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_RUN_COMBAT"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="REACT_RANGED_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_DEFEND"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="VICTORY"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_IDLE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="36"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_MARIO_LuigiLetsaGo"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.007407</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_STOP"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_COMBAT_STOP"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_IDLE"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_START"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="ATTACK_2"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_ATTACK2"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="12"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.451852</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="13"/>
+								<m_Description text=""/>
+								<m_FXName text="END"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.612963</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="26"/>
+								<m_Description text=""/>
+								<m_FXName text="Weapon_Swing_Club_Heavy"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.455556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="29"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_MARIO_LuigiGrunt"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.014815</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="30"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_MARIO_LuigiSpinAtk"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.362963</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="ATTACK_3"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_ATTACK2"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="14"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.453704</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="15"/>
+								<m_Description text=""/>
+								<m_FXName text="END"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.605556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="28"/>
+								<m_Description text=""/>
+								<m_FXName text="Weapon_Swing_Club_Heavy"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.455556</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="31"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_MARIO_LuigiGrunt"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.359259</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_COMBAT_START"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_IDLE_COMBAT"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="ACTION_1"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_ATTACK"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="1"/>
+								<m_Description text=""/>
+								<m_FXName text="Impact_VFX_Blunt_Flesh"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.546296</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="2"/>
+								<m_Description text=""/>
+								<m_FXName text="Weapon_Swing_Club_Heavy"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.455555</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="3"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Smack_Premult"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Hammer_Impact"/>
+								<m_fStartTime>0.511111</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="4"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.542593</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="5"/>
+								<m_Description text=""/>
+								<m_FXName text="END"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.622222</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="23"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_MARIO_LuigiWa"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.094444</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="JUMP_START"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_START_JUMP"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="22"/>
+								<m_Description text=""/>
+								<m_FXName text="Play_Sfx_MICO_MARIO_Jump"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Root"/>
+								<m_fStartTime>0.420370</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="JUMP_IDLE"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_JUMP"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="JUMP_STOP"/>
+						<m_Description text=""/>
+						<m_AnimationName text="MICO_MARIO_END_JUMP"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+				</m_Timelines>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>3.000000</x>
+							<y>0.000000</y>
+							<z>6.500000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="Hammer_Impact"/>
+						<m_BoneName text="HammerWeapon"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="Root"/>
+						<m_BoneName text="Root"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+				</m_Points>
+			</m_attachmentPoints>
+			<m_stateSet/>
+		</m_behaviorDataSets>
+		<m_behaviorInstances/>
+		<m_dsgName text="potential_any_graph_with_jump"/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="Root"/>
+				<m_GeoName text="MICO_LUIGI_BODY"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="MICO_LUIGI_FACE"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="MICO_LUIGI_FACE"/>
+						<m_MeshName text="MICO_LUIGI_BODY"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="MICO_LUIGI_BODY"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="MICO_LUIGI_BODY"/>
+						<m_MeshName text="MICO_LUIGI_BODY"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="MICO_MARIO_HAMMER"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="MICO_MARIO_HAMMER"/>
+						<m_MeshName text="MICO_LUIGI_BODY"/>
+						<m_StateName text="Default"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_SplineSet>
+		<m_Splines/>
+	</m_SplineSet>
+	<m_CookParams>
+		<m_Values/>
+	</m_CookParams>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="Unit"/>
+	<m_DataFiles/>
+	<m_Name text="UNIT_MICO_LUIGI"/>
+	<m_Description text=""/>
+	<m_Tags/>
+</AssetObjects..AssetInstance>
+

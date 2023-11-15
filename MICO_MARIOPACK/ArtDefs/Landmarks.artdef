@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_TemplateName text="Landmarks"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="Districts"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text=""/>
+							<m_RootCollectionName text=""/>
+							<m_ArtDefPath text=""/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="DistrictGenerator"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>255.000000</m_r>
+							<m_g>255.000000</m_g>
+							<m_b>255.000000</m_b>
+							<m_ParamName text="TintColor"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="IsAlignedToCoast"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="FlattenTerrain"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="bUseCityScale"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="DistrictDamagePillagesBuildings"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="NONE"/>
+							<m_ParamName text="ProceduralPlacementMode"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="BaseVariants"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="BuildingVariants"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="BUILDING_MICO_GIANT_BEANSTALK"/>
+										<m_RootCollectionName text="Building"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Buildings"/>
+										<m_ParamName text="Tag_HeroBuilding"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="BUILDING_MICO_GIANT_BEANSTALK_STAGE1"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="MicoTilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_BuildingVariants"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="BUILDING_MICO_GIANT_BEANSTALK"/>
+										<m_RootCollectionName text="Building"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Buildings"/>
+										<m_ParamName text="Tag_HeroBuilding"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="BUILDING_MICO_GIANT_BEANSTALK_STAGE2"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="MicoTilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="[CITYPROP:PROPERTY_MICO_BEANSTALK_AGE_2]"/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_BuildingVariants001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="BUILDING_MICO_GIANT_BEANSTALK"/>
+										<m_RootCollectionName text="Building"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Buildings"/>
+										<m_ParamName text="Tag_HeroBuilding"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="BUILDING_MICO_GIANT_BEANSTALK_STAGE3"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="MicoTilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="[CITYPROP:PROPERTY_MICO_BEANSTALK_AGE_3]"/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>2</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_BuildingVariants002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="BuildingSets"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..CollectionValue">
+										<m_eObjectType>INVALID</m_eObjectType>
+										<m_eValueType>ARTDEF_REF</m_eValueType>
+										<m_Values>
+											<Element class="AssetObjects..ArtDefReferenceValue">
+												<m_ElementName text="BUILDING_MICO_GIANT_BEANSTALK"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
+												<m_CollectionIsLocked>true</m_CollectionIsLocked>
+												<m_TemplateName text="Buildings"/>
+												<m_ParamName text="Set001"/>
+											</Element>
+										</m_Values>
+										<m_ParamName text="Set"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Giant_Beanstalk"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="DISTRICT_PRESERVE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+		<Element>
+			<m_CollectionName text="Landmarks"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="FlattenTerrain"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ONLY_FIRST_60"/>
+							<m_ParamName text="RotationType"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Eras"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="IMP_MicoLavaFortress"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="MicoTilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Eras001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LM_MICO_LAVA_FORTRESS"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="FlattenTerrain"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="EVERY_60"/>
+							<m_ParamName text="RotationType"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Eras"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CLUTTER_MICO_FLOWER_YELLOW_BASE_B"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_Eras"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CLUTTER_MICO_FLOWER_YELLOW_BASE"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_Eras001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CLUTTER_MICO_FLOWER_RED_BASE_B"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_Eras002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CLUTTER_MICO_FLOWER_RED_BASE"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_Eras003"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CLUTTER_MICO_FLOWER_PURPLE_BASE_B"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_Eras004"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CLUTTER_MICO_FLOWER_PURPLE_BASE"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_Eras005"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CLUTTER_MICO_FLOWER_YELLOW_PURPLE_BASE_B"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_Eras006"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CLUTTER_MICO_FLOWER_YELLOW_PURPLE_BASE"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_Eras007"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CLUTTER_MICO_FLOWER_YELLOW_RED_BASE_B"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_Eras008"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CLUTTER_MICO_FLOWER_YELLOW_RED_BASE"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_Eras009"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CLUTTER_MICO_FLOWER_PURPLE_RED_BASE_B"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_Eras010"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CLUTTER_MICO_FLOWER_PURPLE_RED_BASE"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_Eras011"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CLUTTER_MICO_FLOWER_MIX_BASE_B"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_Eras012"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CLUTTER_MICO_FLOWER_MIX_BASE"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="MICO_MARIOPACK_Landmarks_Eras013"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LM_MICO_FLOWER_SANCTUARY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="FlattenTerrain"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ONLY_FIRST_60"/>
+							<m_ParamName text="RotationType"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Eras"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="IMPROVEMENT_MICO_TOAD_HOUSE"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Eras001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LM_MICO_TOAD_HOUSE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="FlattenTerrain"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ONLY_FIRST_60"/>
+							<m_ParamName text="RotationType"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Eras"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Appeal"/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="IMP_MicoLavaFortressRuins"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="micotilebases.xlp"/>
+										<m_BLPPackage text="MicoTilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Eras001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="LM_MICO_LAVA_FORTRESS_RUINS"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+		<Element>
+			<m_CollectionName text="ResourceTags"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="Globals"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="TerrainTags"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

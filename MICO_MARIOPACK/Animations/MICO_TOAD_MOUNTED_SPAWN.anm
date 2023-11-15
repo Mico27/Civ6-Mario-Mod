@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..AnimationInstance>
+	<m_CookParams>
+		<m_Values/>
+	</m_CookParams>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_fDuration>0.000000</m_fDuration>
+	<m_SourceFilePath text="D:\Civ6Mod\MICO_TOAD_MOUNTED_SPAWN.fbx"/>
+	<m_SourceObjectName text="Root"/>
+	<m_ImportedTime>0</m_ImportedTime>
+	<m_ExportedTime>0</m_ExportedTime>
+	<m_ClassName text="Unit"/>
+	<m_DataFiles>
+		<Element>
+			<m_ID text="GR2"/>
+			<m_RelativePath text="MICO_TOAD_MOUNTED_SPAWN.fgx"/>
+		</Element>
+	</m_DataFiles>
+	<m_Name text="MICO_TOAD_MOUNTED_SPAWN"/>
+	<m_Description text=""/>
+	<m_Tags/>
+</AssetObjects..AnimationInstance>
+

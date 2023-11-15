@@ -1,0 +1,1511 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="ATTACK_A"/>
+						<m_AnimationName text="UNIT_MicoAirship_Attack"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_A"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_COMBAT_A"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_A"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT_START"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT_STOP"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_START"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="TURN_L"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="TURN_R"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_A"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="FORWARD_A"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DODGE_A"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEFEND_A"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BACKWARD_A"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_A"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_B"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_C"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_D"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_B"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_C"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_D"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEFEND_1"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="SPAWN"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="VICTORY"/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HERO_A"/>
+						<m_AnimationName text="UNIT_MicoAirship_Attack"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HERO_1"/>
+						<m_AnimationName text="UNIT_MicoAirship_Attack"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_3"/>
+						<m_AnimationName text="UNIT_MicoAirship_Attack"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_2"/>
+						<m_AnimationName text="UNIT_MicoAirship_Attack"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_1"/>
+						<m_AnimationName text="UNIT_MicoAirship_Attack"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ACTION_1"/>
+						<m_AnimationName text="UNIT_MicoAirship_Attack"/>
+					</Element>
+				</m_Bindings>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="ATTACK_A"/>
+						<m_TimelineName text="ATTACK_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_A"/>
+						<m_TimelineName text="BREATHING_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_A"/>
+						<m_TimelineName text="RUN_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="FORWARD_A"/>
+						<m_TimelineName text="FORWARD_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BACKWARD_A"/>
+						<m_TimelineName text="BACKWARD_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_A"/>
+						<m_TimelineName text="REACT_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DODGE_A"/>
+						<m_TimelineName text="DODGE_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_COMBAT_A"/>
+						<m_TimelineName text="BREATHING_COMBAT_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEFEND_A"/>
+						<m_TimelineName text="DEFEND_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="TURN_R"/>
+						<m_TimelineName text="TURN_R"/>
+					</Element>
+					<Element>
+						<m_SlotName text="TURN_L"/>
+						<m_TimelineName text="TURN_L"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT"/>
+						<m_TimelineName text="RUN_COMBAT"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP"/>
+						<m_TimelineName text="RUN_STOP"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT_STOP"/>
+						<m_TimelineName text="RUN_COMBAT_STOP"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_START"/>
+						<m_TimelineName text="RUN_START"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT_START"/>
+						<m_TimelineName text="RUN_COMBAT_START"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEFEND_1"/>
+						<m_TimelineName text="DEFEND_1"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_A"/>
+						<m_TimelineName text="REACT_RANGED_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_B"/>
+						<m_TimelineName text="REACT_RANGED_B"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_D"/>
+						<m_TimelineName text="REACT_RANGED_D"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_C"/>
+						<m_TimelineName text="REACT_RANGED_C"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_B"/>
+						<m_TimelineName text="RUN_STOP_B"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_D"/>
+						<m_TimelineName text="RUN_STOP_D"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_C"/>
+						<m_TimelineName text="RUN_STOP_C"/>
+					</Element>
+				</m_Bindings>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines>
+					<Element>
+						<m_Name text="ATTACK_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Attack"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="1"/>
+								<m_Description text=""/>
+								<m_FXName text="FieldCannon_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.668183</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="2"/>
+								<m_Description text=""/>
+								<m_FXName text="FieldCannon_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.797879</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="3"/>
+								<m_Description text=""/>
+								<m_FXName text="FieldCannon_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.920304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="4"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Caravel_Cannon_MuzzFlash_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="cannon_muzzle_LB"/>
+								<m_fStartTime>0.672729</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="5"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Caravel_Cannon_MuzzFlash_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="cannon_muzzle_LC"/>
+								<m_fStartTime>0.794849</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="6"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Caravel_Cannon_MuzzFlash_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="cannon_muzzle_LF"/>
+								<m_fStartTime>0.915758</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="7"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.319699</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="8"/>
+								<m_Description text=""/>
+								<m_FXName text="AoE_Hit"/>
+								<m_CollectionName text="TerrainVFX"/>
+								<m_AttachmentPointName text="cannon_muzzle_LB"/>
+								<m_fStartTime>1.321214</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="9"/>
+								<m_Description text=""/>
+								<m_FXName text="AoE_Hit"/>
+								<m_CollectionName text="TerrainVFX"/>
+								<m_AttachmentPointName text="cannon_muzzle_LC"/>
+								<m_fStartTime>1.600911</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="10"/>
+								<m_Description text=""/>
+								<m_FXName text="AoE_Hit"/>
+								<m_CollectionName text="TerrainVFX"/>
+								<m_AttachmentPointName text="cannon_muzzle_LF"/>
+								<m_fStartTime>1.459395</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="11"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Caravel_Cannon_MuzzFlash_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="cannon_muzzle_RB"/>
+								<m_fStartTime>0.672729</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="12"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Caravel_Cannon_MuzzFlash_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="cannon_muzzle_RC"/>
+								<m_fStartTime>0.794849</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="13"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Caravel_Cannon_MuzzFlash_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="cannon_muzzle_RF"/>
+								<m_fStartTime>0.915758</m_fStartTime>
+								<m_fDuration>0.300000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="BREATHING_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="FORWARD_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="BACKWARD_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="REACT_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DODGE_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="BREATHING_COMBAT_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEFEND_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="TURN_R"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="TURN_L"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_COMBAT"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_STOP"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_COMBAT_STOP"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_START"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_COMBAT_START"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="DEFEND_1"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="REACT_RANGED_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="REACT_RANGED_B"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="REACT_RANGED_D"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="REACT_RANGED_C"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_STOP_B"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_STOP_D"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="RUN_STOP_C"/>
+						<m_Description text=""/>
+						<m_AnimationName text="UNIT_MicoAirship_Idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+						<m_Tracks>
+							<Element>
+								<m_Name text="Sound"/>
+								<m_Type>SOUND</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Transfer"/>
+								<m_Type>TRANSFER</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Action"/>
+								<m_Type>ACTION</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="ArtDef VFX"/>
+								<m_Type>ARTDEF_VFX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Light"/>
+								<m_Type>LIGHT</m_Type>
+							</Element>
+						</m_Tracks>
+					</Element>
+				</m_Timelines>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>-1.000000</y>
+							<z>8.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.087266</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="cannon_muzzle_LB"/>
+						<m_BoneName text="cannonLB"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.500000</y>
+							<z>8.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="cannon_muzzle_LC"/>
+						<m_BoneName text="cannonLC"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>2.500000</y>
+							<z>8.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>-0.261799</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="cannon_muzzle_LF"/>
+						<m_BoneName text="cannonLF"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>-1.500000</y>
+							<z>-8.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="cannon_muzzle_RB"/>
+						<m_BoneName text="cannonRB"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>-0.500000</y>
+							<z>-8.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="cannon_muzzle_RC"/>
+						<m_BoneName text="cannonRC"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.500000</y>
+							<z>-8.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="cannon_muzzle_RF"/>
+						<m_BoneName text="cannonRF"/>
+						<m_ModelInstanceName text="Root"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+				</m_Points>
+			</m_attachmentPoints>
+			<m_stateSet/>
+		</m_behaviorDataSets>
+		<m_behaviorInstances/>
+		<m_dsgName text="potential_any_graph"/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="Root"/>
+				<m_GeoName text="UNIT_MicoAirship"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Mico_Airship_Cannon"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Mico_Airship_Cannon"/>
+						<m_MeshName text="Unit_MicoAirship"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Mico_Airship_Steel"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Mico_Airship_Steel"/>
+						<m_MeshName text="Unit_MicoAirship"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Mico_Airship_Deck"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Mico_Airship_Deck"/>
+						<m_MeshName text="Unit_MicoAirship"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Mico_Airship_Wood"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Mico_Airship_Wood"/>
+						<m_MeshName text="Unit_MicoAirship"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Mico_Airship_WoodPale"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Mico_Airship_WoodPale"/>
+						<m_MeshName text="Unit_MicoAirship"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Mico_Airship_Shield"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Mico_Airship_Shield"/>
+						<m_MeshName text="Unit_MicoAirship"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Mico_Airship_Propeller"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Mico_Airship_Propeller"/>
+						<m_MeshName text="Unit_MicoAirship"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Mico_Airship_WoodRed"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Mico_Airship_WoodRed"/>
+						<m_MeshName text="Unit_MicoAirship"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Mico_Airship_Body"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Mico_Airship_Body"/>
+						<m_MeshName text="Unit_MicoAirship"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Mico_Airship_Head"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Mico_Airship_Head"/>
+						<m_MeshName text="Unit_MicoAirship"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Mico_Airship_Parts"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Mico_Airship_Parts"/>
+						<m_MeshName text="Unit_MicoAirship"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Mico_Airship_Rim"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Mico_Airship_Rim"/>
+						<m_MeshName text="Unit_MicoAirship"/>
+						<m_StateName text="Default"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_SplineSet>
+		<m_Splines/>
+	</m_SplineSet>
+	<m_CookParams>
+		<m_Values/>
+	</m_CookParams>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="Unit"/>
+	<m_DataFiles/>
+	<m_Name text="UNIT_MicoAirship"/>
+	<m_Description text=""/>
+	<m_Tags>
+		<Element text="Unit"/>
+	</m_Tags>
+</AssetObjects..AssetInstance>
+

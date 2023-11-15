@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="MicoTilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="IMP_MicoLavaFortress"/>
+			<m_ObjectName text="IMP_MicoLavaFortress"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BUILDING_MICO_GIANT_BEANSTALK_STAGE1"/>
+			<m_ObjectName text="BUILDING_MICO_GIANT_BEANSTALK_STAGE1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BUILDING_MICO_GIANT_BEANSTALK_STAGE2"/>
+			<m_ObjectName text="BUILDING_MICO_GIANT_BEANSTALK_STAGE2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BUILDING_MICO_GIANT_BEANSTALK_STAGE3"/>
+			<m_ObjectName text="BUILDING_MICO_GIANT_BEANSTALK_STAGE3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_PURPLE"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_PURPLE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_RED"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_RED"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_YELLOW"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_YELLOW"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_PURPLE_BASE"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_PURPLE_BASE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_PURPLE_BASE_B"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_PURPLE_BASE_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_RED_BASE"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_RED_BASE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_RED_BASE_B"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_RED_BASE_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_YELLOW_BASE"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_YELLOW_BASE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_YELLOW_BASE_B"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_YELLOW_BASE_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_YELLOW_PURPLE_BASE"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_YELLOW_PURPLE_BASE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_YELLOW_PURPLE_BASE_B"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_YELLOW_PURPLE_BASE_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_YELLOW_RED_BASE"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_YELLOW_RED_BASE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_YELLOW_RED_BASE_B"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_YELLOW_RED_BASE_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_PURPLE_RED_BASE_B"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_PURPLE_RED_BASE_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_PURPLE_RED_BASE"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_PURPLE_RED_BASE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_MIX_BASE_B"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_MIX_BASE_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CLUTTER_MICO_FLOWER_MIX_BASE"/>
+			<m_ObjectName text="CLUTTER_MICO_FLOWER_MIX_BASE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMPROVEMENT_MICO_TOAD_HOUSE"/>
+			<m_ObjectName text="IMPROVEMENT_MICO_TOAD_HOUSE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMPROVEMENT_MICO_TOAD_HOUSE_Block"/>
+			<m_ObjectName text="IMPROVEMENT_MICO_TOAD_HOUSE_Block"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMPROVEMENT_MICO_TOAD_HOUSE_House"/>
+			<m_ObjectName text="IMPROVEMENT_MICO_TOAD_HOUSE_House"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMPROVEMENT_MICO_TOAD_HOUSE_QuestionBlock"/>
+			<m_ObjectName text="IMPROVEMENT_MICO_TOAD_HOUSE_QuestionBlock"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_1"/>
+			<m_ObjectName text="IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_2"/>
+			<m_ObjectName text="IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_3"/>
+			<m_ObjectName text="IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_4"/>
+			<m_ObjectName text="IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_MicoLavaFortressRuins"/>
+			<m_ObjectName text="IMP_MicoLavaFortressRuins"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

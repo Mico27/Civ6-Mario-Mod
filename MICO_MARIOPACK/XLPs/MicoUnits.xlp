@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="Unit"/>
+	<m_PackageName text="MicoUnits"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="UNIT_MicoAirship"/>
+			<m_ObjectName text="UNIT_MicoAirship"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UNIT_MICO_MARIO"/>
+			<m_ObjectName text="UNIT_MICO_MARIO"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UNIT_MICO_LUIGI"/>
+			<m_ObjectName text="UNIT_MICO_LUIGI"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_BODY"/>
+			<m_ObjectName text="MICO_TOAD_BODY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_HAT"/>
+			<m_ObjectName text="MICO_TOAD_HAT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_HEAD"/>
+			<m_ObjectName text="MICO_TOAD_HEAD"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOADETTE_BODY"/>
+			<m_ObjectName text="MICO_TOADETTE_BODY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOADETTE_HAT"/>
+			<m_ObjectName text="MICO_TOADETTE_HAT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_SPEAR"/>
+			<m_ObjectName text="MICO_TOAD_SPEAR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_ARCHER"/>
+			<m_ObjectName text="MICO_TOAD_ARCHER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_CATAPULT_OPERATOR"/>
+			<m_ObjectName text="MICO_TOAD_CATAPULT_OPERATOR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_HORSE_RIDER"/>
+			<m_ObjectName text="MICO_TOAD_HORSE_RIDER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_TRADER"/>
+			<m_ObjectName text="MICO_TOAD_TRADER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_TANK"/>
+			<m_ObjectName text="MICO_TOAD_TANK"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_MODERNARMOR"/>
+			<m_ObjectName text="MICO_TOAD_MODERNARMOR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TRADER_CAMEL_FIX"/>
+			<m_ObjectName text="MICO_TRADER_CAMEL_FIX"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_GUN"/>
+			<m_ObjectName text="MICO_TOAD_GUN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_HORSE_RIDER_GUN"/>
+			<m_ObjectName text="MICO_TOAD_HORSE_RIDER_GUN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_ROCKET"/>
+			<m_ObjectName text="MICO_TOAD_ROCKET"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_ROCKET_SUPPORT"/>
+			<m_ObjectName text="MICO_TOAD_ROCKET_SUPPORT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_MACHINEGUN_GUN"/>
+			<m_ObjectName text="MICO_MACHINEGUN_GUN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_MACHINEGUN_OPERATOR"/>
+			<m_ObjectName text="MICO_TOAD_MACHINEGUN_OPERATOR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_SLINGER"/>
+			<m_ObjectName text="MICO_TOAD_SLINGER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_CROSSBOW"/>
+			<m_ObjectName text="MICO_TOAD_CROSSBOW"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_SINGER"/>
+			<m_ObjectName text="MICO_TOAD_SINGER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_RockBand_Truck"/>
+			<m_ObjectName text="MICO_TOAD_RockBand_Truck"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_DRUMMER"/>
+			<m_ObjectName text="MICO_TOAD_DRUMMER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_TOAD_GUITARIST"/>
+			<m_ObjectName text="MICO_TOAD_GUITARIST"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_BODY"/>
+			<m_ObjectName text="MICO_GOOMBA_BODY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_ARCHER"/>
+			<m_ObjectName text="MICO_GOOMBA_ARCHER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_CROSSBOW"/>
+			<m_ObjectName text="MICO_GOOMBA_CROSSBOW"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_DRUMMER"/>
+			<m_ObjectName text="MICO_GOOMBA_DRUMMER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_GUITARIST"/>
+			<m_ObjectName text="MICO_GOOMBA_GUITARIST"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_GUN"/>
+			<m_ObjectName text="MICO_GOOMBA_GUN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_HORSE_RIDER"/>
+			<m_ObjectName text="MICO_GOOMBA_HORSE_RIDER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_HORSE_RIDER_GUN"/>
+			<m_ObjectName text="MICO_GOOMBA_HORSE_RIDER_GUN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_MACHINEGUN_OPERATOR"/>
+			<m_ObjectName text="MICO_GOOMBA_MACHINEGUN_OPERATOR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_MODERNARMOR"/>
+			<m_ObjectName text="MICO_GOOMBA_MODERNARMOR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_ROCKET"/>
+			<m_ObjectName text="MICO_GOOMBA_ROCKET"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_ROCKET_SUPPORT"/>
+			<m_ObjectName text="MICO_GOOMBA_ROCKET_SUPPORT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_SINGER"/>
+			<m_ObjectName text="MICO_GOOMBA_SINGER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_SLINGER"/>
+			<m_ObjectName text="MICO_GOOMBA_SLINGER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_SPEAR"/>
+			<m_ObjectName text="MICO_GOOMBA_SPEAR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_TANK"/>
+			<m_ObjectName text="MICO_GOOMBA_TANK"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_GOOMBA_TRADER"/>
+			<m_ObjectName text="MICO_GOOMBA_TRADER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_WARRIOR"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_WARRIOR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_ANTIAIRINFANTRY"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_ANTIAIRINFANTRY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_MISSIONARY"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_MISSIONARY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_ARCHAEOLOGIST"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_ARCHAEOLOGIST"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_ARCHER"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_ARCHER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_ARTILLERYDEFENDER"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_ARTILLERYDEFENDER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_ATCREW"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_ATCREW"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_ATCREW_SUPPORT"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_ATCREW_SUPPORT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_ATCREW_MODERN"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_ATCREW_MODERN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_ATCREW_MODERN_SUPPORT"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_ATCREW_MODERN_SUPPORT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_BOBOMB"/>
+			<m_ObjectName text="MICO_BOBOMB"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BATTERINGRAM_OPERATOR"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BATTERINGRAM_OPERATOR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BOMBARD_DEFENDER"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BOMBARD_DEFENDER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_ANCIENT_A"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_ANCIENT_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_ANCIENT_B"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_ANCIENT_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_ANCIENT_C"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_ANCIENT_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_ANCIENT_D"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_ANCIENT_D"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_INDUSTRIAL_A"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_INDUSTRIAL_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_INDUSTRIAL_B"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_INDUSTRIAL_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_INDUSTRIAL_C"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_INDUSTRIAL_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_INDUSTRIAL_D"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_INDUSTRIAL_D"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_MEDIEVAL_A"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_MEDIEVAL_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_MEDIEVAL_B"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_MEDIEVAL_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_MEDIEVAL_C"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_MEDIEVAL_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_MEDIEVAL_D"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_MEDIEVAL_D"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_MODERN_A"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_MODERN_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_MODERN_B"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_MODERN_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_MODERN_C"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_MODERN_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_BUILDER_MODERN_D"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_BUILDER_MODERN_D"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_SWORDSMAN"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_SWORDSMAN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_CAVALRY"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_CAVALRY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_COURSER"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_COURSER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_CROSSBOWMAN"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_CROSSBOWMAN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_CUIRASSIER"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_CUIRASSIER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_FIELDOPERATOR_R"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_FIELDOPERATOR_R"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_FIELDOPERATOR_L"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_FIELDOPERATOR_L"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_HEAVYCHARIOT"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_HEAVYCHARIOT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_HORSEMAN"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_HORSEMAN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_INFANTRY"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_INFANTRY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_KNIGHT"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_KNIGHT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_SPEARMAN"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_SPEARMAN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_MECHANIZEDINFANTRY"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_MECHANIZEDINFANTRY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_MODERNARMORGUNNER"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_MODERNARMORGUNNER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_MUSKETMAN"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_MUSKETMAN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_PIKEANDSHOT_A"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_PIKEANDSHOT_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_PIKEANDSHOT_B"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_PIKEANDSHOT_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_PIKEMEN"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_PIKEMEN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_RANGER"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_RANGER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_DRUMMER"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_DRUMMER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_GUITARIST"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_GUITARIST"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_SINGER"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_SINGER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_BOWSER_PIANIST"/>
+			<m_ObjectName text="MICO_BOWSER_PIANIST"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_SCOUT"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_SCOUT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_SETTLER"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_SETTLER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_SETTLER_BACKPACK"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_SETTLER_BACKPACK"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_SLINGER"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_SLINGER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_SPECOPS"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_SPECOPS"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_SPECOPS_B"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_SPECOPS_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_GREATPERSON"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_GREATPERSON"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_TANKGUNNER"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_TANKGUNNER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_KOOPA_TROOPA_MONK"/>
+			<m_ObjectName text="MICO_KOOPA_TROOPA_MONK"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

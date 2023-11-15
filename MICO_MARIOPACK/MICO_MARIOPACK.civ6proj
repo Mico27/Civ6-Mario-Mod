@@ -1,0 +1,4411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Mico's Mario themed leader pass</Name>
+    <Guid>8c6472be-9b71-4608-b804-b4918e1eaddc</Guid>
+    <ProjectGuid>f1d6e542-03ea-4e6d-bab2-6e3bc6353dda</ProjectGuid>
+    <ModVersion>23</ModVersion>
+    <Teaser>Introduces 3 Mario themed Civilization and Leaders and a new Hero  to Civilization VI.</Teaser>
+    <Description>Introduces 3 Mario themed Civilization and Leaders as well as one new Hero to Civilization VI.[NEWLINE][NEWLINE]The [COLOR_FLOAT_MILITARY]Koopa Kingdom[ENDCOLOR] Lead by  [COLOR_FLOAT_MILITARY]King Bowser[ENDCOLOR] with their Unique governors, Airship Unique Unit and the Lava Fortress Unique Improvement.[NEWLINE][NEWLINE]The [COLOR_FLOAT_CULTURE]Mushroom Kingdom[ENDCOLOR]  Lead by  [COLOR_FLOAT_CULTURE]Princess Peach[ENDCOLOR] with their own Wonder, Peach's castle and her Unique Improvement: Toad houses.[NEWLINE][NEWLINE]The [COLOR_FLOAT_GOLD]Sarasaland Kingdom[ENDCOLOR] Lead by [COLOR_FLOAT_GOLD]Princess Daisy[ENDCOLOR] has a Unique Unit replacing the Naturalist as well as a Unique Reserve building, the giant beanstalk.[NEWLINE][NEWLINE]The new Hero added to Hero mode: Mario and Luigi. Have the ability to jump long distances and have the ability to repair a whole city in one go. They also have increased combat strength if one of your city is occupied.</Description>
+    <Authors>Mico27</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Reference type="Dlc" title="DLC: Persia and Macedon Civilization Pack" id="E2749E9A-8056-45CD-901B-C368C8E83DEB" />
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Dependency type="Dlc" title="DLC: Kublai Khan and Vietnam Pack" id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" />
+  <Dependency type="Dlc" title="DLC: Babylon Civilization Pack" id="8424840C-92EF-4426-A9B4-B4E0CB818049" />
+</Associations>]]></AssociationData>
+    <AssemblyName>Keniisus_Civ_Template</AssemblyName>
+    <RootNamespace>Keniisus_Civ_Template</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Mico_FrontEnd_UpdateDatabase"><File>Leader/Leader_Config.sql</File></UpdateDatabase><UpdateText id="Mico_FrontEnd_UpdateText"><File>Core/Civilization_Localisation.sql</File><File>Leader/Leader_Localisation.sql</File><File>Hero/Heroes_Localisation.sql</File></UpdateText><UpdateColors id="Mico_FrontEnd_UpdateColors"><File>Leader/Leader_Colors.sql</File></UpdateColors><UpdateArt id="Mico_FrontEnd_UpdateArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="Mico_FrontEnd_UpdateIcons"><File>Core/NewIcons.sql</File></UpdateIcons><UpdateIcons id="Mico_FrontEnd_UpdateIcons_Post"><Properties><LoadOrder>12727</LoadOrder></Properties><File>Core/NewIcons_Post.sql</File></UpdateIcons><UpdateText id="Mico_FrontEnd_UpdateText_Post"><Properties><LoadOrder>12727</LoadOrder></Properties><File>Leader/Leader_Localisation_Post.sql</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Mico_InGame_UpdateDatabase"><File>Core/Civilization_Config.sql</File><File>Leader/Leader_Core.sql</File><File>Core/Civilization_UA.sql</File><File>Core/Civilization_UI.sql</File><File>Leader/Leader_UA.sql</File><File>Leader/Leader_Agenda.sql</File><File>Leader/Leader_Screens.sql</File><File>Core/Civilization_HistoricMoments.sql</File><File>Core/Civilization_UP.sql</File><File>Core/Civilization_UB.sql</File><File>Leader/Leader_UB.sql</File><File>Leader/Leader_Custom_Governor.sql</File><File>Leader/Leader_UU.sql</File></UpdateDatabase><UpdateColors id="Mico_InGame_UpdateColors"><File>Leader/Leader_Colors.sql</File></UpdateColors><UpdateText id="Mico_InGame_UpdateText"><File>Core/Civilization_Localisation.sql</File><File>Leader/Leader_Localisation.sql</File><File>Hero/Heroes_Localisation.sql</File></UpdateText><UpdateIcons id="Mico_InGame_UpdateIcons"><File>Core/NewIcons.sql</File></UpdateIcons><UpdateArt id="Mico_InGame_UpdateArt"><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="Mico_InGame_AddGameplayScripts"><File>Lua/Mico_Exposed_Functions.lua</File><File>Lua/Mico_Koopa_Function.lua</File><File>Lua/Mico_Sarasaland_Function.lua</File><File>Lua/Mico_Mushroom_Function.lua</File><File>Lua/Mico_Mario_Bros_Function.lua</File></AddGameplayScripts><AddUserInterfaces id="Mico_InGame_AddUserInterfaces"><Properties><Context>InGame</Context></Properties><File>Lua/Mico_Exposed_Functions.xml</File><File>UI/PaintingWarp_UI.xml</File></AddUserInterfaces><ImportFiles id="Mico_InGame_ImportFiles"><File>UI/GreatWorkShowcase_MicoCopy.lua</File></ImportFiles><UpdateIcons id="Mico_InGame_UpdateIcons_Post"><Properties><LoadOrder>12727</LoadOrder></Properties><File>Core/NewIcons_Post.sql</File></UpdateIcons><UpdateText id="Mico_InGame_UpdateText_Post"><Properties><LoadOrder>12727</LoadOrder></Properties><File>Leader/Leader_Localisation_Post.sql</File></UpdateText><UpdateDatabase id="Mico_InGame_UpdateDatabase_Post"><Properties><LoadOrder>12727</LoadOrder></Properties><File>Core/Civilization_UI_Post.sql</File><File>Leader/Leader_UA_Post.sql</File></UpdateDatabase><UpdateDatabase id="Mico_InGame_Hero_UpdateDatabase"><Criteria>ExtraHeroes_Mode_Expansion2</Criteria><File>Hero/Heroes.sql</File></UpdateDatabase><ImportFiles id="Mico_InGame_Hero_ImportFiles"><Criteria>ExtraHeroes_Mode_Expansion2</Criteria><File>UI/Additions/HeroesPopup.lua</File><File>UI/Additions/HeroesSupport.lua</File></ImportFiles><UpdateIcons id="Mico_InGame_Hero_UpdateIcons"><Criteria>ExtraHeroes_Mode_Expansion2</Criteria><File>Hero/Heroes_Icons.sql</File></UpdateIcons><UpdateText id="Mico_InGame_Hero_UpdateText"><Criteria>ExtraHeroes_Mode_Expansion2</Criteria><File>Hero/Heroes_Localisation.sql</File></UpdateText><AddUserInterfaces id="Mico_InGame_Hero_AddUserInterfaces"><Properties><Context>InGame</Context></Properties><Criteria>ExtraHeroes_Mode_Expansion2</Criteria><File>UI/FixCity_UI.xml</File></AddUserInterfaces><UpdateAudio id="Mico_InGame_UpdateAudio"><File>Platforms/Windows/Audio/MICO_MARIO_Soundbank.bnk</File><File>Platforms/Windows/Audio/MICO_MARIO_Soundbank.ini</File><File>Platforms/Windows/Audio/MICO_MARIO_Soundbank.txt</File><File>Platforms/Windows/Audio/MICO_MARIO_Soundbank.xml</File></UpdateAudio><ImportFiles id="Mico_InGame_GreatWorkViews_ImportFiles"><Properties><LoadOrder>12727</LoadOrder></Properties><Criteria>GreatWorkViews_Mod</Criteria><File>UI/greatworksoverview.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="ExtraHeroes_Mode_Expansion2"><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse><ConfigurationValueMatches><ConfigurationId>GAMEMODE_HEROES</ConfigurationId><Group>Game</Group><Value>1</Value></ConfigurationValueMatches></Criteria><Criteria id="GreatWorkViews_Mod"><ModInUse>bcdbbbea-984f-474c-b921-6ea0be143600</ModInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Animations\" />
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Core" />
+    <Folder Include="Geometries\" />
+    <Folder Include="Leader" />
+    <Folder Include="Lua" />
+    <Folder Include="Materials\" />
+    <Folder Include="Hero" />
+    <Folder Include="Platforms" />
+    <Folder Include="Platforms\Windows" />
+    <Folder Include="Platforms\Windows\Audio" />
+    <Folder Include="UI" />
+    <Folder Include="Textures" />
+    <Folder Include="UI\Additions" />
+    <Folder Include="_Read_Me_First" />
+    <Folder Include="XLPs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ArtDef Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Improvements.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <Content Include="Animations\BUILDING_MICO_GIANT_BEANSTALK_STAGE1.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\BUILDING_MICO_GIANT_BEANSTALK_STAGE1.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\BUILDING_MICO_GIANT_BEANSTALK_STAGE2.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\BUILDING_MICO_GIANT_BEANSTALK_STAGE2.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\BUILDING_MICO_GIANT_BEANSTALK_STAGE3.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\BUILDING_MICO_GIANT_BEANSTALK_STAGE3.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\BUILDING_MICO_GIANT_BEANSTALK_STAGE4.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\BUILDING_MICO_GIANT_BEANSTALK_STAGE4.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\CLUTTER_MICO_FLOWER_IDLE.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\CLUTTER_MICO_FLOWER_IDLE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\IMPROVEMENT_MICO_TOAD_HOUSE_BLOCK_ANIM.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\IMPROVEMENT_MICO_TOAD_HOUSE_BLOCK_ANIM.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Declare_War_AI.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Declare_War_AI.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Declare_War_Human.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Declare_War_Human.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Defeat.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Defeat.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_First_Meet.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_First_Meet.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Happy_Enraged.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Happy_Enraged.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Happy_Idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Happy_Idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Happy_Neutral.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Happy_Neutral.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Happy_NoB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Happy_NoB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Happy_NoC.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Happy_NoC.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Happy_YesA.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Happy_YesA.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Happy_YesB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Happy_YesB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Kudos.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Kudos.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_Enraged.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_Enraged.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_Happy.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_Happy.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_Idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_Idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_NoB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_NoB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_NoC.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_NoC.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_Unhappy.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_Unhappy.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_YesA.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_YesA.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_YesB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Neutral_YesB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Unhappy_Enraged.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Unhappy_Enraged.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Unhappy_Idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Unhappy_Idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Unhappy_Neutral.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Unhappy_Neutral.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Unhappy_NoA.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Unhappy_NoA.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Unhappy_NoB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Unhappy_NoB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Unhappy_YesA.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Unhappy_YesA.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Unhappy_YesB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Unhappy_YesB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Warning.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_BOWSER_Warning.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Declare_War_AI.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Declare_War_AI.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Declare_War_Human.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Declare_War_Human.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Defeat.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Defeat.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_First_Meet.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_First_Meet.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Happy_Enraged.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Happy_Enraged.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Happy_Idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Happy_Idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Happy_Neutral.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Happy_Neutral.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Happy_NoB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Happy_NoB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Happy_NoC.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Happy_NoC.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Happy_YesA.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Happy_YesA.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Happy_YesB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Happy_YesB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Kudos.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Kudos.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_Enraged.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_Enraged.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_Happy.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_Happy.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_Idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_Idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_NoB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_NoB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_NoC.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_NoC.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_Unhappy.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_Unhappy.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_YesA.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_YesA.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_YesB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Neutral_YesB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Unhappy_Enraged.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Unhappy_Enraged.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Unhappy_Idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Unhappy_Idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Unhappy_Neutral.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Unhappy_Neutral.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Unhappy_NoB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Unhappy_NoB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Unhappy_NoC.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Unhappy_NoC.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Unhappy_YesA.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Unhappy_YesA.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Unhappy_YesB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Unhappy_YesB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Warning.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_DAISY_Warning.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Declare_War_AI.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Declare_War_AI.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Declare_War_Human.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Declare_War_Human.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Defeat.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Defeat.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_First_Meet.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_First_Meet.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Happy_Enraged.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Happy_Enraged.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Happy_Idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Happy_Idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Happy_Neutral.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Happy_Neutral.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Happy_NoB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Happy_NoB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Happy_NoC.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Happy_NoC.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Happy_YesA.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Happy_YesA.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Happy_YesB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Happy_YesB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Kudo.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Kudo.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_Enraged.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_Enraged.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_Happy.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_Happy.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_Idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_Idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_NoB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_NoB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_NoC.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_NoC.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_Unhappy.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_Unhappy.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_YesA.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_YesA.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_YesB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Neutral_YesB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Unhappy_Enraged.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Unhappy_Enraged.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Unhappy_Idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Unhappy_Idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Unhappy_Neutral.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Unhappy_Neutral.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Unhappy_NoA.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Unhappy_NoA.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Unhappy_NoB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Unhappy_NoB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Unhappy_YesA.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Unhappy_YesA.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Unhappy_YesB.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Unhappy_YesB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Warning.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\LEADER_MICO_PEACH_Warning.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_BOBOMB_DEAD.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_BOBOMB_DEAD.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_BOBOMB_IDLE.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_BOBOMB_IDLE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_BOBOMB_WALK.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_BOBOMB_WALK.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_BOWSER_PIANO.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_BOWSER_PIANO.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_ATTACK.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_ATTACK.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_ATTACK2.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_ATTACK2.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_DEATH.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_DEATH.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_DEFEND.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_DEFEND.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_END_JUMP.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_END_JUMP.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_IDLE.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_IDLE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_IDLE_COMBAT.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_IDLE_COMBAT.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_JUMP.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_JUMP.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_RUN.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_RUN.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_RUN_COMBAT.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_RUN_COMBAT.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_START_JUMP.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_MARIO_START_JUMP.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_ARCHER_ATTACK.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_ARCHER_ATTACK.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_ATTACK.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_ATTACK.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_ATTACK2.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_ATTACK2.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_ATTACK3.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_ATTACK3.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_CATAPULT_ATTACK.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_CATAPULT_ATTACK.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_DEATH.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_DEATH.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_DEFEND.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_DEFEND.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_DEFEND_SHIELD.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_DEFEND_SHIELD.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_DRUMMER_PLAY.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_DRUMMER_PLAY.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_GUN_FIRE.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_GUN_FIRE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_GUN_FIRE_SPEEN.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_GUN_FIRE_SPEEN.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_GUN_IDLE.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_GUN_IDLE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_GUN_IDLE_COMBAT.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_GUN_IDLE_COMBAT.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_GUN_RUN.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_GUN_RUN.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_GUN_RUN_COMBAT.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_GUN_RUN_COMBAT.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_HORSE_IDLE.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_HORSE_IDLE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_IDLE.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_IDLE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_IDLE2.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_IDLE2.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_IDLE3.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_IDLE3.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MACHINEGUN_ATTACK.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MACHINEGUN_ATTACK.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MACHINEGUN_ATTACK_AIR.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MACHINEGUN_ATTACK_AIR.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MODERNARMOR_HIDE.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MODERNARMOR_HIDE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MODERNARMOR_IDLE.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MODERNARMOR_IDLE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_COMBAT_IDLE.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_COMBAT_IDLE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_GUN_FIRE.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_GUN_FIRE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_GUN_IDLE.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_GUN_IDLE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_GUN_IDLE_COMBAT.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_GUN_IDLE_COMBAT.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_REACT.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_REACT.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_RUN.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_RUN.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_RUN_STOP.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_RUN_STOP.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_SPAWN.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_MOUNTED_SPAWN.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_ROCKET_ASSIST.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_ROCKET_ASSIST.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_ROCKET_ATTACK.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_ROCKET_ATTACK.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_RUN.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_RUN.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_RUN2.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_RUN2.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_RUN_SPEAR.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_RUN_SPEAR.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_SINGER_SING.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_SINGER_SING.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_SLINGER_ATTACK.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_SLINGER_ATTACK.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_TANK_IDLE.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_TANK_IDLE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_TRADER_IDLE.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\MICO_TOAD_TRADER_IDLE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\UNIT_MicoAirship_Attack.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <ArtDef Include="ArtDefs\Unit_Bins.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <Content Include="Animations\UNIT_MicoAirship_Attack.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\UNIT_MicoAirship_Idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\UNIT_MicoAirship_Idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <ArtDef Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\GamePropertyRanges.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\WonderMovie.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\BUILDING_MICO_GIANT_BEANSTALK_STAGE1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\BUILDING_MICO_GIANT_BEANSTALK_STAGE2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\BUILDING_MICO_GIANT_BEANSTALK_STAGE3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_MIX_BASE.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_MIX_BASE_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_PURPLE.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_PURPLE_BASE.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_PURPLE_BASE_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_PURPLE_RED_BASE.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_PURPLE_RED_BASE_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_RED.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_RED_BASE.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_RED_BASE_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_YELLOW.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_YELLOW_BASE.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_YELLOW_BASE_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_YELLOW_PURPLE_BASE.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_YELLOW_PURPLE_BASE_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_YELLOW_RED_BASE.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\CLUTTER_MICO_FLOWER_YELLOW_RED_BASE_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\IMPROVEMENT_MICO_TOAD_HOUSE.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\IMPROVEMENT_MICO_TOAD_HOUSE_Block.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_4.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\IMPROVEMENT_MICO_TOAD_HOUSE_House.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\IMPROVEMENT_MICO_TOAD_HOUSE_QuestionBlock.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\IMP_MicoLavaFortress.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\IMP_MicoLavaFortressRuins.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\LEADER_MICO_BOWSER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\LEADER_MICO_DAISY.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\LEADER_MICO_PEACH.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_BOBOMB.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_BOWSER_PIANIST.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_ARCHER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_BODY.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_CROSSBOW.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_DRUMMER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_GUITARIST.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_GUN.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_HORSE_RIDER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_HORSE_RIDER_GUN.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_MACHINEGUN_OPERATOR.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_MODERNARMOR.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_ROCKET.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_ROCKET_SUPPORT.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_SINGER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_SLINGER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_SPEAR.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_TANK.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_GOOMBA_TRADER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_ANTIAIRINFANTRY.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_ARCHAEOLOGIST.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_ARCHER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_ARTILLERYDEFENDER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_ATCREW.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_ATCREW_MODERN.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_ATCREW_MODERN_SUPPORT.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_ATCREW_SUPPORT.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BATTERINGRAM_OPERATOR.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BOMBARD_DEFENDER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_ANCIENT_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_ANCIENT_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_ANCIENT_C.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_ANCIENT_D.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_INDUSTRIAL_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_INDUSTRIAL_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_INDUSTRIAL_C.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_INDUSTRIAL_D.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_MEDIEVAL_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_MEDIEVAL_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_MEDIEVAL_C.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_MEDIEVAL_D.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_MODERN_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_MODERN_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_MODERN_C.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_BUILDER_MODERN_D.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_CAVALRY.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_COURSER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_CROSSBOWMAN.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_CUIRASSIER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_DRUMMER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_FIELDOPERATOR_L.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_FIELDOPERATOR_R.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_GREATPERSON.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_GUITARIST.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_HEAVYCHARIOT.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_HORSEMAN.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_INFANTRY.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_KNIGHT.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_MECHANIZEDINFANTRY.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_MISSIONARY.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_MODERNARMORGUNNER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_MONK.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_MUSKETMAN.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_PIKEANDSHOT_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_PIKEANDSHOT_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_PIKEMEN.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_RANGER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_SCOUT.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_SETTLER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_SETTLER_BACKPACK.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_SINGER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_SLINGER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_SPEARMAN.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_SPECOPS.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_SPECOPS_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_SWORDSMAN.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_TANKGUNNER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_KOOPA_TROOPA_WARRIOR.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_MACHINEGUN_GUN.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOADETTE_BODY.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOADETTE_HAT.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_ARCHER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_BODY.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_CATAPULT_OPERATOR.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_CROSSBOW.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_DRUMMER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_GUITARIST.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_GUN.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_HAT.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_HEAD.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_HORSE_RIDER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_HORSE_RIDER_GUN.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_MACHINEGUN_OPERATOR.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_MODERNARMOR.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_RockBand_Truck.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_ROCKET.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_ROCKET_SUPPORT.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_SINGER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_SLINGER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_SPEAR.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_TANK.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TOAD_TRADER.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\MICO_TRADER_CAMEL_FIX.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\UNIT_MicoAirship.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\UNIT_MICO_LUIGI.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\UNIT_MICO_MARIO.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\WON_MICO_PEACH_CASTLE.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behaviors\BaseGoomba.bhv">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behaviors\BaseToad.bhv">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behaviors\GoombaGun.bhv">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behaviors\HorseRiderGoomba.bhv">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behaviors\HorseRiderToad.bhv">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behaviors\ToadGun.bhv">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_HistoricMoments.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_UB.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_UI.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_UI_Post.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_UP.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\NewIcons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\NewIcons_Post.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\BUILDING_MICO_GIANT_BEANSTALK.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\BUILDING_MICO_GIANT_BEANSTALK.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\CLUTTER_MICO_FLOWER_BASE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\CLUTTER_MICO_FLOWER_BASE.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\CLUTTER_MICO_FLOWER_BASE_B.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\CLUTTER_MICO_FLOWER_BASE_B.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\CLUTTER_MICO_FLOWER_PURPLE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\CLUTTER_MICO_FLOWER_PURPLE.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\CLUTTER_MICO_FLOWER_RED.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\CLUTTER_MICO_FLOWER_RED.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\CLUTTER_MICO_FLOWER_YELLOW.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\CLUTTER_MICO_FLOWER_YELLOW.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE_Block.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE_Block.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_1.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_1.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_2.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_2.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_3.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_3.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_4.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE_BRICKSET_4.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE_House.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE_House.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE_QuestionBlock.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMPROVEMENT_MICO_TOAD_HOUSE_QuestionBlock.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMP_MicoLavaFortress.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\IMP_MicoLavaFortress.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\LEADER_MICO_BOWSER.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\LEADER_MICO_BOWSER.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\LEADER_MICO_BOWSER.wig">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\LEADER_MICO_DAISY.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\LEADER_MICO_DAISY.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\LEADER_MICO_DAISY.wig">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\LEADER_MICO_PEACH.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\LEADER_MICO_PEACH.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\LEADER_MICO_PEACH.wig">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_BOBOMB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_BOBOMB.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_BOWSER_UNIT.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_BOWSER_UNIT.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_GOOMBA.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_GOOMBA.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_KOOPA_TROOPA.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_KOOPA_TROOPA.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_LUIGI_BODY.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_LUIGI_BODY.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_MACHINEGUN_GUN.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_MACHINEGUN_GUN.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_MARIO_BODY.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_MARIO_BODY.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_PIANO.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_PIANO.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_TOADETTE_BODY.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_TOADETTE_BODY.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_TOADETTE_HAIR.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_TOADETTE_HAIR.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_TOAD_BODY.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_TOAD_BODY.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_TOAD_HAT.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_TOAD_HAT.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_TOAD_HEAD.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\MICO_TOAD_HEAD.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\UNIT_MicoAirship.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\UNIT_MicoAirship.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\WON_MICO_PEACH_CASTLE_HMEDIT.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\WON_MICO_PEACH_CASTLE_HMEDIT.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\WON_MICO_PEACH_CASTLE_MOVIE.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\WON_MICO_PEACH_CASTLE_MOVIE.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Hero\Heroes.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Hero\Heroes_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Hero\Heroes_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Agenda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Core.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Custom_Governor.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Localisation_Post.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Screens.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_UA_Post.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_UB.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_UU.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\Mico_Exposed_Functions.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\Mico_Exposed_Functions.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\Mico_Koopa_Function.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\Mico_Mario_Bros_Function.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\Mico_Mushroom_Function.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lua\Mico_Sarasaland_Function.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\BUILDING_MICO_GIANT_BEANSTALK.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\CLUTTER_MICO_FLOWER_GREEN.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\CLUTTER_MICO_FLOWER_PURPLE.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\CLUTTER_MICO_FLOWER_RED.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\CLUTTER_MICO_FLOWER_YELLOW.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\IMPROVEMENT_MICO_TOAD_HOUSE_Block.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\IMPROVEMENT_MICO_TOAD_HOUSE_Coin.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\IMPROVEMENT_MICO_TOAD_HOUSE_QuestionBlock.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\IMPROVEMENT_MICO_TOAD_HOUSE_UsedBlock.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\IMP_MicoLavaFortress.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\IMP_MicoLavaFortressBase.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\IMP_MicoLavaFortressLava.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Mico_Airship_Body.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Mico_Airship_Cannon.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Mico_Airship_Deck.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Mico_Airship_Head.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Mico_Airship_Parts.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Mico_Airship_Propeller.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Mico_Airship_Rim.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Mico_Airship_Shield.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Mico_Airship_Steel.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Mico_Airship_Wood.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Mico_Airship_WoodPale.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Mico_Airship_WoodRed.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_BEIGE_BRICKS.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_BEIGE_WALL.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_BOBOMB_BODY_1.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_BOBOMB_BODY_2.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_BOWSER_BODY.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_BOWSER_EYE.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_BOWSER_LEADER_BODY.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_BOWSER_LEADER_EYE.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_BROWN_BRICKS.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_GOOMBA.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_KOOPA_TROOPA_BODY.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_KOOPA_TROOPA_EYES.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_LEADER_DAISY_BodyMT.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_LEADER_DAISY_EyeMT.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_LEADER_PEACH_BroachMT.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_LEADER_PEACH_DressMT.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_LEADER_PEACH_EarringMT.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_LEADER_PEACH_EyeMT.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_LEADER_PEACH_EyePupilMT.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_LEADER_PEACH_HairMT.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_LEADER_PEACH_SkinMT.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_LUIGI_BODY.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_LUIGI_FACE.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_MARIO_BODY.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_MARIO_FACE.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_MARIO_HAMMER.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_BRICK_1.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_BRICK_2.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_BRIDGE_FLOOR.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_BRIDGE_RAIL.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_BRIDGE_SIDE.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_DOOR.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_DOOR_DETAILS.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_DRAPE_TASSEL.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_DRAPE_VELVET.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_HMEDIT.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_LAMP_GLASS.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_LIGHT_SOURCE.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_ROOF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_ROOF_FRAME.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_SHRUBBERY.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_STAINED_GLASS.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_STONE_1.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_STONE_2.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_STONE_RIM.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_WINDOW_BRICK.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_WINDOW_FRAME.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_WINDOW_PANE.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PEACH_CASTLE_WINDOW_SHADOW.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PIANO_BLACKKEY.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PIANO_MAIN.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_PIANO_WHITEKEY.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_TOADETTE_BODY.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_TOADETTE_HAT.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_TOAD_BODY.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_TOAD_HAT.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_TOAD_HOUSE_ROOF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_WHITE_BRICKS.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\MICO_WOOD.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\WON_MICO_PEACH_CASTLE_FLOWER1.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\WON_MICO_PEACH_CASTLE_FLOWER2.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\WON_MICO_PEACH_CASTLE_LEAF1.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\WON_MICO_PEACH_CASTLE_LEAF2.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MICO_MARIOPACK.Art.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\1021812717.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\1044059486.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\1060534925.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\1064290238.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\1069990438.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\132799706.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\138692795.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\182722103.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\185922916.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\202250981.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\21166714.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\212622651.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\215030166.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\216272775.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\235660020.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\273757416.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\313413357.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\385395583.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\386760104.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\390592523.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\393825259.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\424665886.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\427185806.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\431709661.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\439720370.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\443252600.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\510367792.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\544135650.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\556846473.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\559909949.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\646183498.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\674831805.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\682632438.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\696681659.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\716244410.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\738098137.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\73903677.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\750143178.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\751126996.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\773586062.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\795300503.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\869953352.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\899270545.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\903011533.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\915109448.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\920373913.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\954112938.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\972033152.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\MICO_MARIO_Soundbank.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\MICO_MARIO_Soundbank.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\MICO_MARIO_Soundbank.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\MICO_MARIO_Soundbank.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BeanstalkAlbedo.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BeanstalkAlbedo.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bomb_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bomb_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bomb_body.0.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bomb_body.0.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BowserCastleAlbedo.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BowserCastleAlbedo.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BowserCastleBaseAlbedo.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BowserCastleBaseAlbedo.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BowserCastleLavaOpacity.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BowserCastleLavaOpacity.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BowserCastleSpec.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BowserCastleSpec.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BUILDING_MICO_GIANT_BEANSTALK_A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BUILDING_MICO_GIANT_BEANSTALK_A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_G.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_G.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_GREEN_A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_GREEN_A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_GREEN_O.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_GREEN_O.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_PURPLE_A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_PURPLE_A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_PURPLE_O.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_PURPLE_O.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_RED_A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_RED_A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_RED_O.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_RED_O.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_YELLOW_A.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_YELLOW_A.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_YELLOW_O.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CLUTTER_MICO_FLOWER_YELLOW_O.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_MICO_BOWSER.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_MICO_BOWSER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_MICO_DAISY.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_MICO_DAISY.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_MICO_PEACH.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_MICO_PEACH.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Green_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Green_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Green_o.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Green_o.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Purple_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Purple_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Purple_o.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Purple_o.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Red_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Red_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Red_o.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Red_o.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Yellow_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Yellow_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Yellow_o.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flower_Sanctuary_Flowers_Yellow_o.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorNormal_MicoIggy.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorNormal_MicoIggy.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorNormal_MicoLarry.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorNormal_MicoLarry.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorNormal_MicoLemmy.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorNormal_MicoLemmy.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorNormal_MicoLudwig.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorNormal_MicoLudwig.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorNormal_MicoMorton.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorNormal_MicoMorton.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorNormal_MicoRoy.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorNormal_MicoRoy.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorNormal_MicoWendy.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorNormal_MicoWendy.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelected_MicoIggy.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelected_MicoIggy.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelected_MicoLarry.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelected_MicoLarry.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelected_MicoLemmy.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelected_MicoLemmy.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelected_MicoLudwig.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelected_MicoLudwig.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelected_MicoMorton.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelected_MicoMorton.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelected_MicoRoy.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelected_MicoRoy.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelected_MicoWendy.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelected_MicoWendy.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Heroes_MicoMarioBros.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Heroes_MicoMarioBros.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Heroes_MicoMarioBros_Expired.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Heroes_MicoMarioBros_Expired.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HistoricMomentKoopalings.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HistoricMomentKoopalings.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HistoricMomentPeachCastle.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HistoricMomentPeachCastle.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HistoricMomentToadHouse.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HistoricMomentToadHouse.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_FOW_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_GREATWORK_SYMBOL_MICO_MARIO_BROS_FOW_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_HEROCLASS_MICO_MARIO_BROS_105.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_HEROCLASS_MICO_MARIO_BROS_105.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLOWER_SANCTUARY_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLOWER_SANCTUARY_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLOWER_SANCTUARY_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLOWER_SANCTUARY_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLOWER_SANCTUARY_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLOWER_SANCTUARY_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLOWER_SANCTUARY_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLOWER_SANCTUARY_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_70.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_70.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_95.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_FLYING_FORTRESS_95.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_GIANT_BEANSTALK_128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_GIANT_BEANSTALK_128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_GIANT_BEANSTALK_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_GIANT_BEANSTALK_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_GIANT_BEANSTALK_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_GIANT_BEANSTALK_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_GIANT_BEANSTALK_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_GIANT_BEANSTALK_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_GIANT_BEANSTALK_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_GIANT_BEANSTALK_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_GIANT_BEANSTALK_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_GIANT_BEANSTALK_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_LAVA_FORTRESS_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_LAVA_FORTRESS_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_LAVA_FORTRESS_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_LAVA_FORTRESS_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_LAVA_FORTRESS_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_LAVA_FORTRESS_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_LAVA_FORTRESS_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_LAVA_FORTRESS_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PEACH_CASTLE_128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PEACH_CASTLE_128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PEACH_CASTLE_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PEACH_CASTLE_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PEACH_CASTLE_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PEACH_CASTLE_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PEACH_CASTLE_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PEACH_CASTLE_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PEACH_CASTLE_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PEACH_CASTLE_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PEACH_CASTLE_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PEACH_CASTLE_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PEACH_CASTLE_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PEACH_CASTLE_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PROJECT_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PROJECT_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PROJECT_30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PROJECT_30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PROJECT_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PROJECT_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PROJECT_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PROJECT_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PROJECT_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PROJECT_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PROJECT_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_PROJECT_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_TOAD_HOUSE_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_TOAD_HOUSE_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_TOAD_HOUSE_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_TOAD_HOUSE_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_TOAD_HOUSE_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_TOAD_HOUSE_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_TOAD_HOUSE_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_MICO_TOAD_HOUSE_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_UNIT_MICO_MARIO_BROS_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_UNIT_MICO_MARIO_BROS_22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_UNIT_MICO_MARIO_BROS_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_UNIT_MICO_MARIO_BROS_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_UNIT_MICO_MARIO_BROS_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_UNIT_MICO_MARIO_BROS_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_UNIT_MICO_MARIO_BROS_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_UNIT_MICO_MARIO_BROS_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_UNIT_MICO_MARIO_BROS_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_UNIT_MICO_MARIO_BROS_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_UNIT_MICO_MARIO_BROS_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ATLAS_UNIT_MICO_MARIO_BROS_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_KOOPA_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_MUSHROOM_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_MICO_SARASALAND_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_BOWSER_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_BOWSER_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_BOWSER_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_BOWSER_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_BOWSER_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_BOWSER_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_BOWSER_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_BOWSER_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_BOWSER_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_BOWSER_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_BOWSER_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_BOWSER_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_BOWSER_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_BOWSER_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_DAISY_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_DAISY_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_DAISY_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_DAISY_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_DAISY_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_DAISY_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_DAISY_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_DAISY_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_DAISY_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_DAISY_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_DAISY_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_DAISY_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_DAISY_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_DAISY_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_PEACH_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_PEACH_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_PEACH_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_PEACH_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_PEACH_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_PEACH_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_PEACH_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_PEACH_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_PEACH_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_PEACH_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_PEACH_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_PEACH_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_PEACH_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_MICO_PEACH_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNITOPERATION_MICO_WARP_PAINTING_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNITOPERATION_MICO_WARP_PAINTING_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNITOPERATION_MICO_WARP_PAINTING_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNITOPERATION_MICO_WARP_PAINTING_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNITOPERATION_MICO_WARP_PAINTING_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNITOPERATION_MICO_WARP_PAINTING_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNITOPERATION_MICO_WARP_PAINTING_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNITOPERATION_MICO_WARP_PAINTING_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMPROVEMENT_MICO_TOAD_HOUSE_Block_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMPROVEMENT_MICO_TOAD_HOUSE_Block_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMPROVEMENT_MICO_TOAD_HOUSE_Coin_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMPROVEMENT_MICO_TOAD_HOUSE_Coin_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMPROVEMENT_MICO_TOAD_HOUSE_Coin_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMPROVEMENT_MICO_TOAD_HOUSE_Coin_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMPROVEMENT_MICO_TOAD_HOUSE_Coin_o.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMPROVEMENT_MICO_TOAD_HOUSE_Coin_o.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMPROVEMENT_MICO_TOAD_HOUSE_QuestionBlock_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMPROVEMENT_MICO_TOAD_HOUSE_QuestionBlock_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMPROVEMENT_MICO_TOAD_HOUSE_UsedBlock_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMPROVEMENT_MICO_TOAD_HOUSE_UsedBlock_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMP_MicoLavaFortressBase_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMP_MicoLavaFortressBase_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMP_MicoLavaFortressLava_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMP_MicoLavaFortressLava_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMP_MicoLavaFortressLava_e.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMP_MicoLavaFortressLava_e.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMP_MicoLavaFortressLava_o.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMP_MicoLavaFortressLava_o.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMP_MicoLavaFortress_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMP_MicoLavaFortress_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMP_MicoLavaFortress_s.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\IMP_MicoLavaFortress_s.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaEye_alb.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaEye_alb.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaEye_nrm.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaEye_nrm.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaEye_rgh.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaEye_rgh.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaHackBody_alb.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaHackBody_alb.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaHackBody_ft.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaHackBody_ft.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaHackBody_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaHackBody_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaHackBody_nrm.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaHackBody_nrm.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaHackBody_sss.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaHackBody_sss.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaHackBody_st.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\KoopaHackBody_st.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\kuribo.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\kuribo.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_MICO_BOWSER_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_MICO_BOWSER_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_MICO_DAISY_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_MICO_DAISY_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_MICO_PEACH_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_MICO_PEACH_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Body_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Body_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Body_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Body_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Body_s.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Body_s.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Cannon_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Cannon_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Cannon_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Cannon_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Cannon_s.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Cannon_s.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Deck_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Deck_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Deck_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Deck_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Deck_s.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Deck_s.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Head_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Head_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Head_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Head_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Head_s.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Head_s.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Parts_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Parts_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Parts_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Parts_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Parts_s.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Parts_s.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Rim_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Rim_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Rim_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Rim_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Rim_s.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Rim_s.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Shield_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Shield_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Shield_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Shield_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Shield_s.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Shield_s.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Steel_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Steel_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Steel_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Steel_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Steel_s.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Steel_s.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_WoodPale_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_WoodPale_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_WoodPale_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_WoodPale_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_WoodPale_s.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_WoodPale_s.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_WoodRed_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_WoodRed_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_WoodRed_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_WoodRed_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_WoodRed_s.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_WoodRed_s.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Wood_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Wood_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Wood_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Wood_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Wood_s.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Airship_Wood_s.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BEIGE_BRICKS_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BEIGE_BRICKS_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BEIGE_WALL_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BEIGE_WALL_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BOWSER_1.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BOWSER_1.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BOWSER_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BOWSER_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BOWSER_3.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BOWSER_3.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BOWSER_4.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BOWSER_4.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BOWSER_UNIT_alb.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BOWSER_UNIT_alb.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BOWSER_UNIT_EYES_alb.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BOWSER_UNIT_EYES_alb.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BOWSER_UNIT_nrm.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BOWSER_UNIT_nrm.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BROWN_BRICKS_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_BROWN_BRICKS_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_DAISY_1.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_DAISY_1.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_DAISY_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_DAISY_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_DAISY_3.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_DAISY_3.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_DAISY_4.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_DAISY_4.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_GovernorPromotions24.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_GovernorPromotions24.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Governors32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Governors32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Governors64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_Governors64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_GovernorsCityBannerFill22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_GovernorsCityBannerFill22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_GovernorsCityBannerFill32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_GovernorsCityBannerFill32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_GovernorsCityBannerSlot22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_GovernorsCityBannerSlot22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_GovernorsCityBannerSlot32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Mico_GovernorsCityBannerSlot32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_LUIGI_BODY_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_LUIGI_BODY_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_LUIGI_BODY_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_LUIGI_BODY_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_LUIGI_BODY_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_LUIGI_BODY_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_LUIGI_FACE_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_LUIGI_FACE_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_LUIGI_FACE_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_LUIGI_FACE_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_LUIGI_FACE_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_LUIGI_FACE_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_MARIO_BODY_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_MARIO_BODY_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_MARIO_BODY_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_MARIO_BODY_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_MARIO_BODY_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_MARIO_BODY_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_MARIO_FACE_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_MARIO_FACE_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_MARIO_FACE_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_MARIO_FACE_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_MARIO_FACE_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_MARIO_FACE_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_MARIO_HAMMER.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_MARIO_HAMMER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_1.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_1.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_4.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_4.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_1_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_1_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_1_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_1_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_1_m.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_1_m.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_1_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_1_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_2_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_2_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_2_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_2_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_2_m.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_2_m.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_2_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRICK_2_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_FLOOR_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_FLOOR_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_FLOOR_m.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_FLOOR_m.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_FLOOR_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_FLOOR_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_RAIL_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_RAIL_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_RAIL_m.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_RAIL_m.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_RAIL_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_RAIL_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_SIDE_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_SIDE_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_SIDE_m.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_SIDE_m.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_SIDE_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_BRIDGE_SIDE_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DOOR_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DOOR_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DOOR_DETAILS_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DOOR_DETAILS_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DOOR_DETAILS_m.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DOOR_DETAILS_m.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DOOR_DETAILS_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DOOR_DETAILS_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DOOR_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DOOR_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DOOR_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DOOR_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DRAPE_TASSEL_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DRAPE_TASSEL_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DRAPE_TASSEL_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DRAPE_TASSEL_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DRAPE_VELVET_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DRAPE_VELVET_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DRAPE_VELVET_m.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DRAPE_VELVET_m.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DRAPE_VELVET_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_DRAPE_VELVET_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_HMEDIT_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_HMEDIT_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_ROOF_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_ROOF_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_ROOF_FRAME_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_ROOF_FRAME_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_ROOF_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_ROOF_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_ROOF_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_ROOF_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_SHRUBBERY_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_SHRUBBERY_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STAINED_GLASS_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STAINED_GLASS_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STAINED_GLASS_e.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STAINED_GLASS_e.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STAINED_GLASS_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STAINED_GLASS_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STAINED_GLASS_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STAINED_GLASS_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_1_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_1_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_2_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_2_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_2_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_2_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_2_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_2_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_RIM_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_RIM_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_RIM_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_RIM_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_RIM_m.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_RIM_m.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_RIM_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_STONE_RIM_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_WINDOW_BRICK_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_WINDOW_BRICK_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_WINDOW_BRICK_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_WINDOW_BRICK_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_WINDOW_FRAME_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_WINDOW_FRAME_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_WINDOW_PANE_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_WINDOW_PANE_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_WINDOW_PANE_e.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_WINDOW_PANE_e.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_WINDOW_SHADOW_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_WINDOW_SHADOW_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_WINDOW_SHADOW_o.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_PEACH_CASTLE_WINDOW_SHADOW_o.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_TOADETTE_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_TOADETTE_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_TOADETTE_HAT_t.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_TOADETTE_HAT_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_TOADETTE_t.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_TOADETTE_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_TOAD_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_TOAD_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_TOAD_HAT_t.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_TOAD_HAT_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_TOAD_HOUSE_ROOF_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_TOAD_HOUSE_ROOF_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_TOAD_t.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_TOAD_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_WHITE_BRICKS_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_WHITE_BRICKS_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_WOOD_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MICO_WOOD_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_Infrastructure_AirShip.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_Infrastructure_AirShip.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_Infrastructure_FlowerSanctuary.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_Infrastructure_FlowerSanctuary.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_Infrastructure_GiantBeanstalk.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_Infrastructure_GiantBeanstalk.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_Infrastructure_LavaFortress.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_Infrastructure_LavaFortress.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_Infrastructure_RoyalGardener.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_Infrastructure_RoyalGardener.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\noko_all_tx.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\noko_all_tx.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\noko_all_tx_mask.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\noko_all_tx_mask.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\noko_eye.0.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\noko_eye.0.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\pc04_body_alb.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\pc04_body_alb.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\pc04_body_mtl.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\pc04_body_mtl.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\pc04_body_nml.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\pc04_body_nml.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\pc04_body_rgh.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\pc04_body_rgh.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\pc04_eyelid_alb.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\pc04_eyelid_alb.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\pc04_eyelid_nml.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\pc04_eyelid_nml.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\pc04_eyelid_rgh.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\pc04_eyelid_rgh.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachDress_alb.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachDress_alb.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachDress_mask.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachDress_mask.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachDress_mtl.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachDress_mtl.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachDress_nrm.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachDress_nrm.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachDress_rgh.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachDress_rgh.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEarring_alb.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEarring_alb.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEarring_nrm.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEarring_nrm.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEyeLeft_alb.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEyeLeft_alb.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEyeLeft_emm.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEyeLeft_emm.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEyeLeft_mtl.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEyeLeft_mtl.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEyeLeft_nrm.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEyeLeft_nrm.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEyeLeft_opacity.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEyeLeft_opacity.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEyeLeft_rgh.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEyeLeft_rgh.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEye_alb.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachEye_alb.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachNormalHair_alb.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachNormalHair_alb.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachNormalHair_nrm.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachNormalHair_nrm.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachNormalHair_rgh.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachNormalHair_rgh.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachSkin_alb.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachSkin_alb.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachSkin_nrm.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachSkin_nrm.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachSkin_rgh.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PeachSkin_rgh.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_70.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_70.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_95.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAITS_ATLAS_UNITS_MICO_MARIO_BROS_95.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MICO_PEACH_CASTLE_FLOWER1_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MICO_PEACH_CASTLE_FLOWER1_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MICO_PEACH_CASTLE_FLOWER2_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MICO_PEACH_CASTLE_FLOWER2_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MICO_PEACH_CASTLE_LEAF1_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MICO_PEACH_CASTLE_LEAF1_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MICO_PEACH_CASTLE_LEAF1_o.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MICO_PEACH_CASTLE_LEAF1_o.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MICO_PEACH_CASTLE_LEAF2_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MICO_PEACH_CASTLE_LEAF2_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MICO_PEACH_CASTLE_LEAF2_o.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\WON_MICO_PEACH_CASTLE_LEAF2_o.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Additions\HeroesPopup.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Additions\HeroesSupport.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\FixCity_UI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\FixCity_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\GreatWorkShowcase_MicoCopy.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\greatworksoverview.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\PaintingWarp_UI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\PaintingWarp_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Leaders.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <XLP Include="XLPs\MicoWonderMovie.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\MicoUnits.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\MicoTilebases.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\UILeaders.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\Atlas.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <None Include="_Read_Me_First\0. Introduction.txt">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="_Read_Me_First\1. HelpFile_CoreCode.txt">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="_Read_Me_First\2. HelpFile_LeaderCode.txt">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="_Read_Me_First\3. HelpFile_Textures.txt">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="_Read_Me_First\4. HelpFile_XLPs.txt">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="_Read_Me_First\5. HelpFile_ArtDefs.txt">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="_Read_Me_First\6. HelpFile_ArtXML.txt">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="_Read_Me_First\7. HelpFile_BuildActions.txt">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="_Read_Me_First\8. HelpFile_BasicTroubleshooting.txt">
+      <SubType>Content</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

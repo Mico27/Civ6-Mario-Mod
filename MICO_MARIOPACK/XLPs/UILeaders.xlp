@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UILeaders"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LEADER_MICO_DAISY_NEUTRAL"/>
+			<m_ObjectName text="LEADER_MICO_DAISY_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MICO_PEACH_NEUTRAL"/>
+			<m_ObjectName text="LEADER_MICO_PEACH_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_DAISY_1"/>
+			<m_ObjectName text="MICO_DAISY_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_DAISY_2"/>
+			<m_ObjectName text="MICO_DAISY_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_DAISY_3"/>
+			<m_ObjectName text="MICO_DAISY_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_DAISY_4"/>
+			<m_ObjectName text="MICO_DAISY_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_PEACH_1"/>
+			<m_ObjectName text="MICO_PEACH_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_PEACH_2"/>
+			<m_ObjectName text="MICO_PEACH_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_PEACH_4"/>
+			<m_ObjectName text="MICO_PEACH_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MICO_BOWSER_NEUTRAL"/>
+			<m_ObjectName text="LEADER_MICO_BOWSER_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_BOWSER_1"/>
+			<m_ObjectName text="MICO_BOWSER_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_BOWSER_2"/>
+			<m_ObjectName text="MICO_BOWSER_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_BOWSER_3"/>
+			<m_ObjectName text="MICO_BOWSER_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MICO_BOWSER_4"/>
+			<m_ObjectName text="MICO_BOWSER_4"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
